@@ -14,8 +14,11 @@ def get_keywords(course: str) -> str:
                 "role": "user",
                 "content": (
                     f"A student is looking for open educational resources for this course: '{course}'.\n"
-                    "Return a short search query (5–10 words) that would find relevant OER textbooks or materials.\n"
-                    "Only return the query, nothing else."
+                    "Return the single best search keyword (1–3 words) for finding academic materials on this topic.\n"
+                    "Prefer the most common academic term instructors would search — e.g. 'biology', 'calculus', 'English composition'.\n"
+                    "Do not use commas or punctuation — just space-separated words.\n"
+                    "Do not include words like 'free', 'OER', 'textbook', 'open', or course numbers.\n"
+                    "Only return the keyword, nothing else."
                 ),
             }
         ],

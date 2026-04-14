@@ -8,6 +8,7 @@ from tools.alg_scraper import search_alg
 from tools.oer_commons import search_oer_commons
 from tools.libretexts_scraper import search_libretexts
 from tools.license_checker import check_license
+from tools.scorer import score_resource
 
 load_dotenv()
 
@@ -49,7 +50,10 @@ def search():
         for r in results:
             r["license"] = check_license(r.get("license_raw", ""))
             if r["license"]:
+                score_resource(r)
                 filtered.append(r)
+
+        filtered.sort(key=lambda r: r["total_score"], reverse=True)
 
         # Step 5 — return final results
         yield event({"step": 5, "message": "Done.", "results": filtered})

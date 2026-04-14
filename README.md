@@ -12,6 +12,7 @@ An AI-powered agent that helps students find open educational resources (OER) fo
 
 **Fedora/RHEL:**
 ```bash
+
 sudo dnf install nodejs -y
 ```
 
@@ -76,3 +77,27 @@ The frontend runs on `http://localhost:5173`. Open that URL in your browser.
 4. If fewer than 3 results are found, LibreTexts is searched as a fallback
 5. Only openly licensed resources are returned
 
+## Project Structure
+
+```
+Oer-Agent/
+├── backend/
+│   ├── app.py                  # Flask API + SSE streaming
+│   ├── requirements.txt
+│   ├── .env.example
+│   ├── services/
+│   │   └── claude_service.py   # Claude keyword mapping
+│   └── tools/
+│       ├── alg_scraper.py      # Affordable Learning Georgia API
+│       ├── oer_commons.py      # OER Commons API
+│       ├── libretexts_scraper.py
+│       └── license_checker.py
+└── frontend/
+    ├── src/
+    │   ├── App.jsx
+    │   └── components/
+    │       ├── SearchBar.jsx
+    │       ├── ProgressLog.jsx
+    │       └── ResourceCard.jsx
+    └── package.json
+```

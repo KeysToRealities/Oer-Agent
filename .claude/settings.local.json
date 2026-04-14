@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sL \"https://oercommons.org/api/v1/resources?q=english+composition&limit=3&format=json\")",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -s -w \"\\\\nHTTP_STATUS:%{http_code}\" -L \"https://oercommons.org/api/v1/resources?q=english+composition&limit=3&format=json\" -H \"Accept: application/json\")"
+    ]
+  }
+}

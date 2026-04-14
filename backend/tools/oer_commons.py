@@ -17,12 +17,16 @@ def search_oer_commons(keywords: str) -> list[dict]:
 
         results = []
         for item in data.get("results", []):
+            rating = item.get("rating") or item.get("avg_rating")
+            review_count = item.get("review_count") or item.get("reviews_count") or 0
             results.append({
                 "title": item.get("title", ""),
                 "url": item.get("url", ""),
                 "description": item.get("description", ""),
                 "license_raw": item.get("license", ""),
                 "source": "OER Commons",
+                "rating": float(rating) if rating is not None else None,
+                "review_count": int(review_count),
             })
 
         return results
