@@ -34,14 +34,16 @@ function Pagination({ page, total, onPage }) {
 function App() {
   const [steps, setSteps] = useState([]);
   const [results, setResults] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [phase, setPhase] = useState("idle"); // 'idle' | 'loading' | 'done'
+  const [query, setQuery] = useState("");
   const [page, setPage] = useState(1);
 
   function handleSearch(course) {
     setSteps([]);
     setResults([]);
-    setLoading(true);
     setPage(1);
+    setQuery(course);
+    setPhase("loading");
 
     const es = new EventSource(
       `http://localhost:5000/api/search?course=${encodeURIComponent(course)}`
@@ -53,40 +55,68 @@ function App() {
 
       if (data.results) {
         setResults(data.results);
-        setLoading(false);
+        setPhase("done");
         es.close();
       }
     };
 
     es.onerror = () => {
       setSteps((prev) => [...prev, "Something went wrong. Please try again."]);
-      setLoading(false);
+      setPhase("done");
       es.close();
     };
   }
 
+  function handleBack() {
+    setPhase("idle");
+    setSteps([]);
+    setResults([]);
+    setQuery("");
+    setPage(1);
+  }
+
   const pageResults = results.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+  const isActive = phase !== "idle";
 
   return (
-    <div className="app">
-      <h1>OER Agent</h1>
-      <p className="subtitle">Find open educational resources for your course</p>
-      <SearchBar onSearch={handleSearch} loading={loading} />
-      {steps.length > 0 && <ProgressLog steps={steps} />}
-      {results.length > 0 && (
-        <>
+    <div className={`app${isActive ? " app--active" : ""}`}>
+      <div className={`hero-section${isActive ? " hero-section--compact" : ""}`}>
+        <h1>OER Agent</h1>
+        {!isActive && (
+          <>
+            <p className="subtitle">Find open educational resources for your course</p>
+            <SearchBar onSearch={handleSearch} loading={phase === "loading"} />
+          </>
+        )}
+      </div>
+
+      {phase === "loading" && (
+        <div className="activity-area">
+          <ProgressLog steps={steps} />
+        </div>
+      )}
+
+      {phase === "done" && (
+        <div className="results-area">
+          <div className="results-header">
+            <button className="back-btn" onClick={handleBack}>
+              &#8592; Back
+            </button>
+            <p className="results-label">
+              Resources found for <strong>{query}</strong>
+            </p>
+          </div>
           <div className="results-grid">
             {pageResults.map((r, i) => (
               <ResourceCard key={i} resource={r} />
             ))}
           </div>
-          <Pagination
-            page={page}
-            total={results.length}
-            onPage={setPage}
-          />
-        </>
+          <Pagination page={page} total={results.length} onPage={setPage} />
+        </div>
       )}
+      <footer className="site-footer">
+        Powered by <span className="footer-claude">Claude</span>
+      </footer>
     </div>
   );
 }

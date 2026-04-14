@@ -8,7 +8,7 @@ def search_oer_commons(keywords: str) -> list[dict]:
     try:
         params = {
             "q": keywords,
-            "limit": 10,
+            "limit": 25,
             "format": "json",
         }
         response = requests.get(OER_API_URL, params=params, timeout=10)

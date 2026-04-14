@@ -21,7 +21,7 @@ def _infer_type(slug: str, title: str) -> str:
 def _fetch_alg(query: str) -> list:
     params = {
         "filter[keyword]": query,
-        "page[size]": 20,
+        "page[size]": 40,
     }
     response = requests.get(
         ALG_API_URL,

@@ -1,5 +1,5 @@
 import json
-import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from flask import Flask, Response, request, jsonify
 from flask_cors import CORS
 from dotenv import load_dotenv
@@ -7,6 +7,9 @@ from services.claude_service import get_keywords
 from tools.alg_scraper import search_alg
 from tools.oer_commons import search_oer_commons
 from tools.libretexts_scraper import search_libretexts
+from tools.openstax_scraper import search_openstax
+from tools.merlot_scraper import search_merlot
+from tools.open_textbook_library import search_open_textbook_library
 from tools.license_checker import check_license
 from tools.scorer import score_resource
 
@@ -14,6 +17,12 @@ load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
+
+SCRAPERS = [
+    ("ALG",                   search_alg),
+    ("OpenStax",              search_openstax),
+    ("Open Textbook Library", search_open_textbook_library),
+]
 
 
 def event(data: dict) -> str:
@@ -31,32 +40,43 @@ def search():
         yield event({"step": 1, "message": "Mapping course to search keywords..."})
         keywords = get_keywords(course)
 
-        # Step 2 — search ALG + OER Commons
-        yield event({"step": 2, "message": "Searching ALG and OER Commons..."})
-        alg_results = search_alg(keywords)
-        oer_results = search_oer_commons(keywords)
-        results = alg_results + oer_results
+        # Step 2 — search all sources in parallel
+        source_names = ", ".join(name for name, _ in SCRAPERS)
+        yield event({"step": 2, "message": f"Searching {source_names}..."})
 
-        # Step 3 — fallback to LibreTexts if weak results
-        if len(results) < 3:
-            yield event({"step": 3, "message": "Results limited — searching LibreTexts..."})
-            results += search_libretexts(keywords)
-        else:
-            yield event({"step": 3, "message": "Sufficient results found, skipping fallback."})
+        results = []
+        with ThreadPoolExecutor(max_workers=len(SCRAPERS)) as pool:
+            futures = {pool.submit(fn, keywords): name for name, fn in SCRAPERS}
+            for future in as_completed(futures):
+                try:
+                    results.extend(future.result())
+                except Exception as e:
+                    print(f"[{futures[future]}] Scraper error: {e}")
 
-        # Step 4 — license check + scoring + explanations
-        yield event({"step": 4, "message": "Checking licenses and generating explanations..."})
-        filtered = []
+        yield event({"step": 3, "message": f"Found {len(results)} resources — filtering by license..."})
+
+        # Step 3 — license filter
+        licensed = []
         for r in results:
             r["license"] = check_license(r.get("license_raw", ""))
             if r["license"]:
-                score_resource(r)
-                filtered.append(r)
+                licensed.append(r)
 
-        filtered.sort(key=lambda r: r["total_score"], reverse=True)
+        # Step 4 — parallel Claude scoring
+        yield event({"step": 4, "message": f"Claude is evaluating {len(licensed)} resources..."})
 
-        # Step 5 — return final results
-        yield event({"step": 5, "message": "Done.", "results": filtered})
+        def score(r):
+            score_resource(r, course)
+            return r
+
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            futures = {pool.submit(score, r): r for r in licensed}
+            scored = [f.result() for f in as_completed(futures)]
+
+        scored.sort(key=lambda r: r["total_score"], reverse=True)
+
+        # Step 5 — done
+        yield event({"step": 5, "message": "Done.", "results": scored})
 
     return Response(stream(), mimetype="text/event-stream")
 
