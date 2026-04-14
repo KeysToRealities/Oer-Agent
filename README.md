@@ -34,6 +34,18 @@ cd Oer-Agent
 
 ```bash
 cd backend
+```
+
+Create and activate a virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+```
+
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
 ```
 
@@ -73,31 +85,6 @@ The frontend runs on `http://localhost:5173`. Open that URL in your browser.
 
 1. Enter a course name or number (e.g. `ENGL 1101`, `Introduction to Psychology`)
 2. The agent maps it to search keywords using Claude
-3. Results are streamed in from ALG and OER Commons
-4. If fewer than 3 results are found, LibreTexts is searched as a fallback
-5. Only openly licensed resources are returned
-
-## Project Structure
-
-```
-Oer-Agent/
-├── backend/
-│   ├── app.py                  # Flask API + SSE streaming
-│   ├── requirements.txt
-│   ├── .env.example
-│   ├── services/
-│   │   └── claude_service.py   # Claude keyword mapping
-│   └── tools/
-│       ├── alg_scraper.py      # Affordable Learning Georgia API
-│       ├── oer_commons.py      # OER Commons API
-│       ├── libretexts_scraper.py
-│       └── license_checker.py
-└── frontend/
-    ├── src/
-    │   ├── App.jsx
-    │   └── components/
-    │       ├── SearchBar.jsx
-    │       ├── ProgressLog.jsx
-    │       └── ResourceCard.jsx
-    └── package.json
-```
+3. Results are streamed in from Affordable Learning Georgia, OpenStax, Open Textbook Library, OER Commons, LibreTexts, and MERLOT
+4. Only openly licensed resources are returned
+5. Claude scores each resource and results are ranked by overall score
