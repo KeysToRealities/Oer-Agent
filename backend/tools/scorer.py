@@ -22,8 +22,7 @@ LICENSE_SCORES: list[tuple[str, float]] = [
     ("cc-by-nc-nd", 2.5),
     ("cc by-nc-sa", 3.0),
     ("cc-by-nc-sa", 3.0),
-    ("cc by-nc", 3.0),
-    ("cc-by-nc", 3.0),
+    ("cc by-nc", 3.0),    ("cc-by-nc", 3.0),
     ("cc by-nd", 3.5),
     ("cc-by-nd", 3.5),
     ("cc by-sa", 4.5),
@@ -36,7 +35,6 @@ LICENSE_SCORES: list[tuple[str, float]] = [
 ]
 
 DEFAULT_OPEN_LICENSE = 2.0
-DEFAULT_QUALITY = 2.5
 
 # Fallback values used when Claude is unavailable
 _FALLBACK = {
@@ -44,9 +42,29 @@ _FALLBACK = {
     "pedagogical_value_score": 3.0,
     "relevance_score": 2.5,
     "technical_quality_score": 3.0,
-    "interactivity_score": 2.5,
     "explanation": "",
 }
+
+
+def _is_free(resource: dict) -> int:
+    """Return 1 if the resource is free, 0 if paid or unknown cost."""
+    price = resource.get("purchase_price", "")
+    if price:
+        # Strip currency symbols and check if zero
+        cleaned = price.replace("$", "").replace(",", "").strip()
+        try:
+            return 1 if float(cleaned) == 0.0 else 0
+        except ValueError:
+            pass
+    # OER sources (ALG, OER Commons, LibreTexts, OpenStax) are always free
+    free_sources = {"ALG", "OER Commons", "LibreTexts", "OpenStax", "Open Textbook Library"}
+    if resource.get("source") in free_sources:
+        return 1
+    # CC-licensed resources are open access
+    license_text = (resource.get("license") or resource.get("license_raw") or "").lower()
+    if any(k in license_text for k in ("cc", "creative commons", "public domain", "cc0")):
+        return 1
+    return 0
 
 
 def _open_license_score(resource: dict) -> float:
@@ -57,15 +75,6 @@ def _open_license_score(resource: dict) -> float:
             return score
     return DEFAULT_OPEN_LICENSE
 
-
-def _quality_score(resource: dict) -> float:
-    """Bayesian blend of user rating toward the default when review count is low."""
-    rating = resource.get("rating")
-    review_count = resource.get("review_count", 0)
-    if rating is None or review_count == 0:
-        return DEFAULT_QUALITY
-    weight = min(review_count, 10) / 10
-    return round(rating * weight + DEFAULT_QUALITY * (1 - weight), 2)
 
 
 def _clamp(value, lo=0.0, hi=5.0) -> float:
@@ -79,37 +88,33 @@ def score_resource(resource: dict, course: str = "") -> dict:
     Claude evaluates four subjective dimensions and writes the explanation.
     Open-license score and user-rating quality score remain heuristic.
     """
-    has_rating = resource.get("rating") is not None and resource.get("review_count", 0) > 0
+    # limited_data = Claude only had a description to work from (no TOC, no structured content)
+    has_toc = bool(resource.get("toc_labels"))
+    has_description = bool((resource.get("full_description") or "").strip())
+    limited_data = not has_toc and not has_description
 
     # --- Heuristic scores (no Claude needed) ---
     ol = _open_license_score(resource)
-    q  = _quality_score(resource)
 
     # --- Claude scores (four dimensions + explanation) ---
     claude_out = score_and_explain_resource(resource, course)
 
-    cu = _clamp(claude_out.get("currency_score",          _FALLBACK["currency_score"]))
-    pv = _clamp(claude_out.get("pedagogical_value_score", _FALLBACK["pedagogical_value_score"]))
-    rv = _clamp(claude_out.get("relevance_score",         _FALLBACK["relevance_score"]))
-    tq = _clamp(claude_out.get("technical_quality_score", _FALLBACK["technical_quality_score"]))
-    ia = _clamp(claude_out.get("interactivity_score",     _FALLBACK["interactivity_score"]))
+    cu = _clamp(claude_out.get("currency_score",           _FALLBACK["currency_score"]))
+    pv = _clamp(claude_out.get("pedagogical_value_score",  _FALLBACK["pedagogical_value_score"]))
+    rv = _clamp(claude_out.get("relevance_score",          _FALLBACK["relevance_score"]))
+    tq = _clamp(claude_out.get("technical_quality_score",  _FALLBACK["technical_quality_score"]))
     explanation = claude_out.get("explanation", "")
 
-    resource["has_rating"]              = has_rating
-    resource["quality_score"]           = round(q,  2)
-    resource["open_license_score"]      = round(ol, 2)
-    resource["currency_score"]          = cu
-    resource["pedagogical_value_score"] = pv
-    resource["relevance_score"]         = rv
-    resource["technical_quality_score"] = tq
-    resource["interactivity_score"]     = ia
+    resource["limited_data"]             = limited_data
+    resource["is_free"]                  = _is_free(resource)
+    resource["open_license_score"]       = round(ol, 2)
+    resource["currency_score"]           = cu
+    resource["pedagogical_value_score"]  = pv
+    resource["relevance_score"]          = rv
+    resource["technical_quality_score"]  = tq
     if explanation:
         resource["explanation"] = explanation
 
-    # license is display-only; relevance double-weighted so off-topic results sink
-    core_scores = [cu, pv, rv, rv, tq, ia]
-    if has_rating:
-        core_scores.append(q)
-    resource["total_score"] = round(sum(core_scores) / len(core_scores), 2)
+    resource["total_score"] = round(sum([ol, cu, pv, rv, tq]) / 5, 2)
 
     return resource
