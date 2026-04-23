@@ -1,5 +1,6 @@
 import json
 import os
+import time
 from pathlib import Path
 
 import anthropic
@@ -192,18 +193,24 @@ def score_and_explain_resource(resource: dict, course: str) -> dict:
         "Evaluate this resource and submit your scores and explanation."
     )
 
-    try:
-        message = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=256,
-            tools=[_SCORE_TOOL],
-            tool_choice={"type": "tool", "name": "submit_evaluation"},
-            messages=[{"role": "user", "content": prompt}],
-        )
-        for block in message.content:
-            if block.type == "tool_use":
-                return block.input
-    except Exception as e:
-        print(f"[Claude scoring] Error for '{resource.get('title')}': {e}")
+    for attempt in range(3):
+        try:
+            message = client.messages.create(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=256,
+                tools=[_SCORE_TOOL],
+                tool_choice={"type": "tool", "name": "submit_evaluation"},
+                messages=[{"role": "user", "content": prompt}],
+            )
+            for block in message.content:
+                if block.type == "tool_use":
+                    return block.input
+            return {}
+        except anthropic.RateLimitError:
+            if attempt < 2:
+                time.sleep(10 * (attempt + 1))
+        except Exception as e:
+            print(f"[Claude scoring] Error for '{resource.get('title')}': {e}")
+            break
 
     return {}

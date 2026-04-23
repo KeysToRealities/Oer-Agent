@@ -42,6 +42,7 @@ _FALLBACK = {
     "pedagogical_value_score": 3.0,
     "relevance_score": 2.5,
     "technical_quality_score": 3.0,
+    "interactivity_score": 2.5,
     "explanation": "",
 }
 
@@ -103,6 +104,7 @@ def score_resource(resource: dict, course: str = "") -> dict:
     pv = _clamp(claude_out.get("pedagogical_value_score",  _FALLBACK["pedagogical_value_score"]))
     rv = _clamp(claude_out.get("relevance_score",          _FALLBACK["relevance_score"]))
     tq = _clamp(claude_out.get("technical_quality_score",  _FALLBACK["technical_quality_score"]))
+    ia = _clamp(claude_out.get("interactivity_score",      _FALLBACK["interactivity_score"]))
     explanation = claude_out.get("explanation", "")
 
     resource["limited_data"]             = limited_data
@@ -112,9 +114,10 @@ def score_resource(resource: dict, course: str = "") -> dict:
     resource["pedagogical_value_score"]  = pv
     resource["relevance_score"]          = rv
     resource["technical_quality_score"]  = tq
+    resource["interactivity_score"]      = ia
     if explanation:
         resource["explanation"] = explanation
 
-    resource["total_score"] = round(sum([ol, cu, pv, rv, tq]) / 5, 2)
+    resource["total_score"] = round(sum([ol, cu, pv, rv, tq, ia]) / 6, 2)
 
     return resource

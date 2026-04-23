@@ -9,14 +9,15 @@ function displaySource(source) {
 }
 
 function ScoreBar({ label, score }) {
-  const pct = (score / 5) * 100;
-  const color = score >= 4 ? "#22c55e" : score >= 3 ? "#f59e0b" : "#ef4444";
+  const s = score ?? 0;
+  const pct = (s / 5) * 100;
+  const color = s >= 4 ? "#22c55e" : s >= 3 ? "#f59e0b" : "#ef4444";
 
   return (
     <div className="score-row">
       <div className="score-label">
         <span>{label}</span>
-        <span className="score-value">{score.toFixed(1)}</span>
+        <span className="score-value">{s.toFixed(1)}</span>
       </div>
       <div className="score-track">
         <div className="score-fill" style={{ width: `${pct}%`, background: color }} />
@@ -47,7 +48,7 @@ function ResourceModal({ resource, onClose }) {
             <span className="badge license">{resource.license}</span>
             {hasScores && (
               <span className="badge overall">
-                Overall {resource.total_score.toFixed(1)} / 5.0
+                Overall {(resource.total_score ?? 0).toFixed(1)} / 5.0
               </span>
             )}
           </div>
@@ -113,7 +114,7 @@ export default function ResourceCard({ resource }) {
         {hasScores && (
           <div className="card-score-row">
             <span className="badge overall">
-              Overall {resource.total_score.toFixed(1)} / 5.0
+              Overall {(resource.total_score ?? 0).toFixed(1)} / 5.0
             </span>
             <span className="card-details-hint">View details →</span>
           </div>

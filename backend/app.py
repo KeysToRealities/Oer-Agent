@@ -38,8 +38,7 @@ def search():
         keywords = get_keywords(course)
 
         # Step 2 — search all sources in parallel across all keywords
-        source_names = ", ".join(name for name, _ in SCRAPERS)
-        yield event({"step": 2, "message": f"Searching {source_names} for: {', '.join(keywords)}..."})
+        yield event({"step": 2, "message": "Claude is searching for resources..."})
 
         results = []
         seen: set[str] = set()
@@ -55,8 +54,6 @@ def search():
                 except Exception as e:
                     print(f"[{futures[future]}] Scraper error: {e}")
 
-        yield event({"step": 3, "message": f"Found {len(results)} resources — filtering by license..."})
-
         # Step 3 — license filter
         licensed = []
         for r in results:
@@ -64,20 +61,16 @@ def search():
             if r["license"]:
                 licensed.append(r)
 
-        # Step 4 — parallel Claude scoring
+        # Step 4 — parallel Claude scoring (cap at 20, 3 workers to stay within rate limits)
+        licensed = licensed[:20]
         yield event({"step": 4, "message": f"Claude is evaluating {len(licensed)} resources..."})
 
-        def score(r):
-            score_resource(r, course)
-            return r
-
-        with ThreadPoolExecutor(max_workers=8) as pool:
-            futures = {pool.submit(score, r): r for r in licensed}
+        with ThreadPoolExecutor(max_workers=3) as pool:
+            futures = [pool.submit(score_resource, r, course) for r in licensed]
             scored = [f.result() for f in as_completed(futures)]
 
         scored = [r for r in scored if r.get("relevance_score", 0) >= 2.0]
         scored.sort(key=lambda r: r["total_score"], reverse=True)
-        scored = scored[:40]
 
         # Step 5 — done
         yield event({"step": 5, "message": "Done.", "results": scored})
