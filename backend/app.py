@@ -5,10 +5,7 @@ from flask_cors import CORS
 from dotenv import load_dotenv
 from services.claude_service import get_keywords
 from tools.alg_scraper import search_alg
-from tools.oer_commons import search_oer_commons
-from tools.libretexts_scraper import search_libretexts
 from tools.openstax_scraper import search_openstax
-from tools.merlot_scraper import search_merlot
 from tools.open_textbook_library import search_open_textbook_library
 from tools.license_checker import check_license
 from tools.scorer import score_resource
@@ -40,16 +37,21 @@ def search():
         yield event({"step": 1, "message": "Mapping course to search keywords..."})
         keywords = get_keywords(course)
 
-        # Step 2 — search all sources in parallel
+        # Step 2 — search all sources in parallel across all keywords
         source_names = ", ".join(name for name, _ in SCRAPERS)
-        yield event({"step": 2, "message": f"Searching {source_names}..."})
+        yield event({"step": 2, "message": f"Searching {source_names} for: {', '.join(keywords)}..."})
 
         results = []
-        with ThreadPoolExecutor(max_workers=len(SCRAPERS)) as pool:
-            futures = {pool.submit(fn, keywords): name for name, fn in SCRAPERS}
+        seen: set[str] = set()
+        with ThreadPoolExecutor(max_workers=len(SCRAPERS) * len(keywords)) as pool:
+            futures = {pool.submit(fn, kw): name for kw in keywords for name, fn in SCRAPERS}
             for future in as_completed(futures):
                 try:
-                    results.extend(future.result())
+                    for r in future.result():
+                        key = r.get("url") or r.get("title", "")
+                        if key and key not in seen:
+                            seen.add(key)
+                            results.append(r)
                 except Exception as e:
                     print(f"[{futures[future]}] Scraper error: {e}")
 
@@ -73,7 +75,9 @@ def search():
             futures = {pool.submit(score, r): r for r in licensed}
             scored = [f.result() for f in as_completed(futures)]
 
+        scored = [r for r in scored if r.get("relevance_score", 0) >= 2.0]
         scored.sort(key=lambda r: r["total_score"], reverse=True)
+        scored = scored[:40]
 
         # Step 5 — done
         yield event({"step": 5, "message": "Done.", "results": scored})

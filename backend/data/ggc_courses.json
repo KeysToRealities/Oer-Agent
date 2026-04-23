@@ -1,0 +1,4035 @@
+{
+  "ACCT 2101": {
+    "coid": "17842",
+    "title": "Principles of Accounting I - Financial"
+  },
+  "ACCT 2102": {
+    "coid": "17843",
+    "title": "Principles of Accounting II - Managerial"
+  },
+  "ACCT 3101": {
+    "coid": "17844",
+    "title": "Financial Accounting and Reporting I"
+  },
+  "ACCT 3102": {
+    "coid": "17845",
+    "title": "Financial Accounting and Reporting II"
+  },
+  "ACCT 3201": {
+    "coid": "17846",
+    "title": "Fundamentals of Income Taxation"
+  },
+  "ACCT 3301": {
+    "coid": "17847",
+    "title": "International Accounting"
+  },
+  "ACCT 3400": {
+    "coid": "18616",
+    "title": "Accounting Information Systems"
+  },
+  "ACCT 3401": {
+    "coid": "17848",
+    "title": "Data Analytics for Accounting"
+  },
+  "ACCT 3501": {
+    "coid": "18625",
+    "title": "Fraud Examination"
+  },
+  "ACCT 3502": {
+    "coid": "18683",
+    "title": "Cost Managerial Accounting"
+  },
+  "ACCT 4103": {
+    "coid": "17849",
+    "title": "Auditing"
+  },
+  "ACCT 4104": {
+    "coid": "17850",
+    "title": "Governmental and Not-for-Profit Accounting"
+  },
+  "ACCT 4105": {
+    "coid": "17851",
+    "title": "Financial Accounting and Reporting III"
+  },
+  "ACCT 4201": {
+    "coid": "17852",
+    "title": "Taxation of Business Entities"
+  },
+  "ACCT 4202": {
+    "coid": "17853",
+    "title": "Controllership"
+  },
+  "ACCT 4300": {
+    "coid": "17854",
+    "title": "Regulation of Accounting Profession"
+  },
+  "ACCT 4650": {
+    "coid": "18735",
+    "title": "Business Research Methods"
+  },
+  "ACCT 4700": {
+    "coid": "17855",
+    "title": "Special Topics in Accountancy"
+  },
+  "ACCT 4751": {
+    "coid": "17856",
+    "title": "Internship in Accounting"
+  },
+  "AFAM 2100": {
+    "coid": "18660",
+    "title": "Introduction to African American Studies"
+  },
+  "AFAM 4600": {
+    "coid": "18770",
+    "title": "Directed Study in African American Studies"
+  },
+  "AFAM 4800": {
+    "coid": "18661",
+    "title": "Portfolio Requirement"
+  },
+  "ANTH 1102": {
+    "coid": "17857",
+    "title": "Introduction to Anthropology"
+  },
+  "ANTH 3000": {
+    "coid": "17858",
+    "title": "People and Culture of Latin America"
+  },
+  "ANTH 3010": {
+    "coid": "17859",
+    "title": "Cultural Anthropology"
+  },
+  "ANTH 3600": {
+    "coid": "19913",
+    "title": "Anthropology of Health and the Environment"
+  },
+  "ANTH 4000": {
+    "coid": "17860",
+    "title": "Archaeology and Ancient Civilization"
+  },
+  "ANTH 4200": {
+    "coid": "18882",
+    "title": "Globalization and Culture"
+  },
+  "ANTH 4900": {
+    "coid": "17861",
+    "title": "Special Topics in Anthropology"
+  },
+  "ARTS 1100": {
+    "coid": "17862",
+    "title": "Art Appreciation"
+  },
+  "ARTS 1100H": {
+    "coid": "17863",
+    "title": "Art Appreciation Honors"
+  },
+  "ARTS 2010": {
+    "coid": "17864",
+    "title": "Drawing I"
+  },
+  "ARTS 2011": {
+    "coid": "17865",
+    "title": "Drawing II"
+  },
+  "ARTS 2020": {
+    "coid": "17866",
+    "title": "Two Dimensional Design"
+  },
+  "ARTS 2030": {
+    "coid": "17867",
+    "title": "Three Dimensional Design"
+  },
+  "ARTS 2100": {
+    "coid": "17868",
+    "title": "Global Survey of Art I: The Ancient World"
+  },
+  "ARTS 2200": {
+    "coid": "17869",
+    "title": "Global survey of Art II Rome to Renaissance"
+  },
+  "ARTS 2300": {
+    "coid": "18914",
+    "title": "Global Survey of Art III: The Modern World"
+  },
+  "ARTS 3100": {
+    "coid": "18558",
+    "title": "Visual Literacy and Communication"
+  },
+  "ARTS 3200": {
+    "coid": "18771",
+    "title": "Visual and User Design for Mobile and Web Interface"
+  },
+  "ARTS 3300": {
+    "coid": "18815",
+    "title": "Graphic Design Survey"
+  },
+  "ARTS 3400": {
+    "coid": "18828",
+    "title": "Aqueous Media"
+  },
+  "ARTS 3511": {
+    "coid": "17870",
+    "title": "History of American Art"
+  },
+  "ARTS 3530": {
+    "coid": "17871",
+    "title": "History of Renaissance Art"
+  },
+  "ARTS 3550": {
+    "coid": "17872",
+    "title": "History of Modern Art"
+  },
+  "ARTS 4000": {
+    "coid": "18624",
+    "title": "Art Special Topics"
+  },
+  "BCHM 3100K": {
+    "coid": "17873",
+    "title": "Biochemistry with Laboratory"
+  },
+  "BCHM 4100K": {
+    "coid": "17874",
+    "title": "Advanced Biochemistry with Laboratory"
+  },
+  "BIOL 1011K": {
+    "coid": "18778",
+    "title": "Introductory Biology and Lab (eCore)"
+  },
+  "BIOL 1012K": {
+    "coid": "18779",
+    "title": "Introductory Biology II and Lab (eCore)"
+  },
+  "BIOL 1101K": {
+    "coid": "17876",
+    "title": "Biological Sciences I and Laboratory"
+  },
+  "BIOL 1102": {
+    "coid": "17877",
+    "title": "Biological Sciences II"
+  },
+  "BIOL 1107K": {
+    "coid": "17878",
+    "title": "Principles of Biology I and Laboratory"
+  },
+  "BIOL 1108K": {
+    "coid": "17879",
+    "title": "Principles of Biology II with Laboratory"
+  },
+  "BIOL 1200": {
+    "coid": "18729",
+    "title": "Biology and Society"
+  },
+  "BIOL 2100": {
+    "coid": "18577",
+    "title": "Introductory Special Topics"
+  },
+  "BIOL 2101": {
+    "coid": "18578",
+    "title": "Introductory Special Topics Laboratory"
+  },
+  "BIOL 2251H": {
+    "coid": "18872",
+    "title": "Anatomy and Physiology I with Laboratory Honors"
+  },
+  "BIOL 2251K": {
+    "coid": "18859",
+    "title": "Anatomy and Physiology I with Laboratory"
+  },
+  "BIOL 2252H": {
+    "coid": "18873",
+    "title": "Anatomy and Physicology II with Lab Honors"
+  },
+  "BIOL 2252K": {
+    "coid": "18860",
+    "title": "Anatomy and Physiology II with Laboratory"
+  },
+  "BIOL 2260K": {
+    "coid": "18861",
+    "title": "Foundations of Microbiology with Laboratory"
+  },
+  "BIOL 2370": {
+    "coid": "18897",
+    "title": "From Genes to Evolution"
+  },
+  "BIOL 3000": {
+    "coid": "17883",
+    "title": "Evolution"
+  },
+  "BIOL 3001": {
+    "coid": "18934",
+    "title": "Exploring Biology as a Profession"
+  },
+  "BIOL 3010K": {
+    "coid": "17884",
+    "title": "Human Anatomy"
+  },
+  "BIOL 3020K": {
+    "coid": "17885",
+    "title": "Human Physiology"
+  },
+  "BIOL 3050": {
+    "coid": "17886",
+    "title": "Tropical Biology"
+  },
+  "BIOL 3055": {
+    "coid": "17887",
+    "title": "Natural History of Africa"
+  },
+  "BIOL 3060": {
+    "coid": "17888",
+    "title": "Biology Content Methods"
+  },
+  "BIOL 3150": {
+    "coid": "17889",
+    "title": "Temperate Biology"
+  },
+  "BIOL 3200K": {
+    "coid": "17890",
+    "title": "Genetics"
+  },
+  "BIOL 3300K": {
+    "coid": "17891",
+    
+    "title": "Microbiology with Laboratory"
+  },
+  "BIOL 3310K": {
+    "coid": "17892",
+    "title": "Botany with Laboratory"
+  },
+  "BIOL 3330K": {
+    "coid": "18836",
+    "title": "Fermentation Microbiology with Laboratory"
+  },
+  "BIOL 3350K": {
+    "coid": "17893",
+    "title": "Mycology with Laboratory"
+  },
+  "BIOL 3400K": {
+    "coid": "17894",
+    "title": "Cell Biology with Laboratory"
+  },
+  "BIOL 3450": {
+    "coid": "17895",
+    "title": "Conservation Biology"
+  },
+  "BIOL 3500K": {
+    "coid": "17896",
+    "title": "Ecology with Laboratory"
+  },
+  "BIOL 3510K": {
+    "coid": "17897",
+    "title": "Ichthyology"
+  },
+  "BIOL 3550K": {
+    "coid": "17898",
+    "title": "Limnology with Laboratory"
+  },
+  "BIOL 3600K": {
+    "coid": "17899",
+    "title": "Zoology with Laboratory"
+  },
+  "BIOL 3610K": {
+    "coid": "18574",
+    "title": "Marine Biology"
+  },
+  "BIOL 3650K": {
+    "coid": "17900",
+    "title": "Terrestrial Ecology and Laboratory"
+  },
+  "BIOL 3750K": {
+    "coid": "17901",
+    "title": "Field Biology Techniques"
+  },
+  "BIOL 3900": {
+    "coid": "17902",
+    "title": "Biotechnology"
+  },
+  "BIOL 4000K": {
+    "coid": "17903",
+    "title": "Parasitology"
+  },
+  "BIOL 4001": {
+    "coid": "18905",
+    "title": "Professional Aspects in Biology"
+  },
+  "BIOL 4100": {
+    "coid": "18576",
+    "title": "Advanced Special Topics"
+  },
+  "BIOL 4101K": {
+    "coid": "18575",
+    "title": "Advanced Special Topics with Laboratory"
+  },
+  "BIOL 4150": {
+    "coid": "17904",
+    "title": "Neurobiology"
+  },
+  "BIOL 4200": {
+    "coid": "17905",
+    "title": "Bioinformatics"
+  },
+  "BIOL 4250": {
+    "coid": "17906",
+    "title": "Human Genetics"
+  },
+  "BIOL 4270": {
+    "coid": "17907",
+    "title": "Virology"
+  },
+  "BIOL 4300": {
+    "coid": "17908",
+    "title": "Biotechnology Laboratory"
+  },
+  "BIOL 4300K": {
+    "coid": "19899",
+    "title": "Biotechnology with Laboratory"
+  },
+  "BIOL 4310K": {
+    "coid": "17909",
+    "title": "Developmental Biology with Laboratory"
+  },
+  "BIOL 4350K": {
+    "coid": "18930",
+    "title": "Comparative Vertebrate Anatomy"
+  },
+  "BIOL 4400K": {
+    "coid": "17910",
+    "title": "Medical Entomology with Laboratory"
+  },
+  "BIOL 4410K": {
+    "coid": "17911",
+    "title": "Industrial Microbiology with Laboratory"
+  },
+  "BIOL 4420K": {
+    "coid": "18648",
+    "title": "Environmental Microbiology"
+  },
+  "BIOL 4540": {
+    "coid": "17912",
+    "title": "Immunology"
+  },
+  "BIOL 4550": {
+    "coid": "17913",
+    "title": "Pharmacology"
+  },
+  "BIOL 4560": {
+    "coid": "17914",
+    "title": "Research Methods in Biology"
+  },
+  "BIOL 4570": {
+    "coid": "17915",
+    "title": "Experimental Methods in Biology"
+  },
+  "BIOL 4600": {
+    "coid": "17916",
+    "title": "Readings in Biology"
+  },
+  "BIOL 4610": {
+    "coid": "18906",
+    "title": "Writing in Bilogical Sciences"
+  },
+  "BIOL 4700": {
+    "coid": "17917",
+    "title": "Interdisciplinary Applications of Biology"
+  },
+  "BIOL 4750": {
+    "coid": "17918",
+    "title": "Environmental Toxicology"
+  },
+  "BIOL 4800": {
+    "coid": "17919",
+    "title": "Internship"
+  },
+  "BUSA 2000": {
+    "coid": "17920",
+    "title": "Statistical Analysis for Business"
+  },
+  "BUSA 2105": {
+    "coid": "17921",
+    "title": "Business Communications"
+  },
+  "BUSA 2106": {
+    "coid": "17922",
+    "title": "Legal Environment of Business"
+  },
+  "BUSA 3000": {
+    "coid": "17923",
+    "title": "Quantitative Analysis for Business"
+  },
+  "BUSA 3100": {
+    "coid": "17924",
+    "title": "Management Information Systems"
+  },
+  "BUSA 3200": {
+    "coid": "17925",
+    "title": "Global Business"
+  },
+  "BUSA 3300": {
+    "coid": "18731",
+    "title": "Web Analytics and Data Visualization"
+  },
+  "BUSA 3600": {
+    "coid": "17926",
+    "title": "Business Intelligence for Managers"
+  },
+  "BUSA 3900": {
+    "coid": "17927",
+    "title": "Directed Research and Reading"
+  },
+  "BUSA 4500": {
+    "coid": "17928",
+    "title": "Studies Abroad"
+  },
+  "BUSA 4650": {
+    "coid": "18703",
+    "title": "Business Research Methods"
+  },
+  "BUSA 4700": {
+    "coid": "17929",
+    "title": "Selected Topics in Business"
+  },
+  "BUSA 4751": {
+    "coid": "17930",
+    "title": "Business Internship/Experiential Learning"
+  },
+  "CHEM 1151K": {
+    "coid": "17931",
+    "title": "Survey of Chemistry I with Lab"
+  },
+  "CHEM 1152K": {
+    "coid": "17932",
+    "title": "Survey of Chemistry II with Lab"
+  },
+  "CHEM 1211-H": {
+    "coid": "17934",
+    "title": "Principles of Chemistry I with Laboratory Honors"
+  },
+  "CHEM 1211K": {
+    "coid": "17933",
+    "title": "Principles of Chemistry I with Laboratory"
+  },
+  "CHEM 1212-H": {
+    "coid": "17936",
+    "title": "Principles of Chemistry II with Laboratory Honors"
+  },
+  "CHEM 1212K": {
+    "coid": "17935",
+    "title": "Principles of Chemistry II with Laboratory"
+  },
+  "CHEM 2211K": {
+    "coid": "17937",
+    "title": "Organic Chemistry I with Laboratory"
+  },
+  "CHEM 2212K": {
+    "coid": "17938",
+    "title": "Organic Chemistry II with Laboratory"
+  },
+  "CHEM 3000K": {
+    "coid": "17939",
+    "title": "Analytical Chemistry with Laboratory"
+  },
+  "CHEM 3100K": {
+    "coid": "17940",
+    "title": "Inorganic Chemistry with Laboratory"
+  },
+  "CHEM 3200": {
+    "coid": "17941",
+    "title": "Environmental Chemistry"
+  },
+  "CHEM 3300": {
+    "coid": "17942",
+    "title": "Bioinorganic Chemistry"
+  },
+  "CHEM 3350": {
+    "coid": "18835",
+    "title": "Safety and Quality of Fermentation Chemistry"
+  },
+  "CHEM 3450": {
+    "coid": "18832",
+    "title": "Foundations of Fermentation Chemistry"
+  },
+  "CHEM 3500": {
+    "coid": "17943",
+    "title": "Industrial Chemistry"
+  },
+  "CHEM 4000": {
+    "coid": "17945",
+    "title": "Chemistry Special Topics"
+  },
+  "CHEM 4100K": {
+    "coid": "17946",
+    "title": "Instrumental Chemistry with Laboratory"
+  },
+  "CHEM 4150": {
+    "coid": "18834",
+    "title": "Advanced Analysis in Fermentation Chemistry"
+  },
+  "CHEM 4201K": {
+    "coid": "17947",
+    "title": "Physical Chemistry I with Laboratory"
+  },
+  "CHEM 4202K": {
+    "coid": "17948",
+    "title": "Physical Chemistry II with Laboratory"
+  },
+  "CHEM 4400": {
+    "coid": "17949",
+    "title": "Computational Chemistry"
+  },
+  "CHEM 4450": {
+    "coid": "18837",
+    "title": "Fermentation Facility Operations and Design"
+  },
+  "CHEM 4500": {
+    "coid": "17950",
+    "title": "Chemistry of Energy"
+  },
+  "CHEM 4550": {
+    "coid": "17951",
+    "title": "Polymer Chemistry"
+  },
+  "CHEM 4701": {
+    "coid": "17952",
+    "title": "Integrated Lab I"
+  },
+  "CHEM 4702": {
+    "coid": "17953",
+    "title": "Integrated Lab II"
+  },
+  "CHEM 4750": {
+    "coid": "18833",
+    "title": "Fermentation Chemistry Integrated Lab"
+  },
+  "CHEM 4800": {
+    "coid": "17954",
+    "title": "Chemistry Internship"
+  },
+  "CHIN 1001": {
+    "coid": "17955",
+    "title": "Elementary Chinese I"
+  },
+  "CHIN 1002": {
+    "coid": "18548",
+    "title": "Elementary Chinese II"
+  },
+  "CHIN 2001": {
+    "coid": "17956",
+    "title": "Intermediate Chinese I"
+  },
+  "CHIN 2002": {
+    "coid": "17957",
+    "title": "Intermediate Chinese II"
+  },
+  "CJCR 1100": {
+    "coid": "17961",
+    "title": "Introduction to Criminal Justice/Criminology"
+  },
+  "CJCR 1200": {
+    "coid": "18674",
+    "title": "Typologies of Crime and Criminal Behavior"
+  },
+  "CJCR 2000": {
+    "coid": "17962",
+    "title": "Administration of Justice"
+  },
+  "CJCR 2200": {
+    "coid": "18664",
+    "title": "Writing in Criminal Justice/Criminology"
+  },
+  "CJCR 2400": {
+    "coid": "17963",
+    "title": "Ethics in Criminal Justice"
+  },
+  "CJCR 3100": {
+    "coid": "17964",
+    "title": "Research Methods"
+  },
+  "CJCR 3200": {
+    "coid": "17965",
+    "title": "Criminology"
+  },
+  "CJCR 3210": {
+    "coid": "17966",
+    "title": "Organized Crime"
+  },
+  "CJCR 3230": {
+    "coid": "17968",
+    "title": "Gangs"
+  },
+  "CJCR 3300": {
+    "coid": "17969",
+    "title": "U.S. Courts and Legal System"
+  },
+  "CJCR 3400": {
+    "coid": "17970",
+    "title": "U.S. Police Systems"
+  },
+  "CJCR 3500": {
+    "coid": "17971",
+    "title": "U.S. Corrections Systems"
+  },
+  "CJCR 3510": {
+    "coid": "17972",
+    "title": "Institutional Corrections"
+  },
+  "CJCR 3600": {
+    "coid": "17973",
+    "title": "Statistics for the Social Sciences"
+  },
+  "CJCR 3700": {
+    "coid": "17974",
+    "title": "Criminal Procedure"
+  },
+  "CJCR 3810": {
+    "coid": "17976",
+    "title": "Juvenile Delinquency and Justice"
+  },
+  "CJCR 4000": {
+    "coid": "17977",
+    "title": "Special Topics"
+  },
+  "CJCR 4120": {
+    "coid": "17978",
+    "title": "Race, Ethnicity and Crime"
+  },
+  "CJCR 4130": {
+    "coid": "17979",
+    "title": "Gender, Crime and Justice"
+  },
+  "CJCR 4220": {
+    "coid": "17981",
+    "title": "White Collar and Cybercrime"
+  },
+  "CJCR 4230": {
+    "coid": "17982",
+    "title": "Criminal Violence"
+  },
+  "CJCR 4240": {
+    "coid": "17983",
+    "title": "Victimology"
+  },
+  "CJCR 4250": {
+    "coid": "17984",
+    "title": "Crime Prevention"
+  },
+  "CJCR 4340": {
+    "coid": "17985",
+    "title": "Homeland Security and Terrorism"
+  },
+  "CJCR 4350": {
+    "coid": "17986",
+    "title": "Criminal Law"
+  },
+  "CJCR 4410": {
+    "coid": "17987",
+    "title": "Police and the Community"
+  },
+  "CJCR 4420": {
+    "coid": "17988",
+    "title": "Comparative Criminal Justice Systems"
+  },
+  "CJCR 4510": {
+    "coid": "17989",
+    "title": "Community Based Corrections"
+  },
+  "CJCR 4930": {
+    "coid": "17991",
+    "title": "Internship in Criminal Justice/Criminology"
+  },
+  "CJCR 4940": {
+    "coid": "17992",
+    "title": "Senior Seminar in Criminal Justice/Criminology"
+  },
+  "CMAP 3100": {
+    "coid": "18768",
+    "title": "Social Media and the Online World"
+  },
+  "CMAP 3200": {
+    "coid": "18767",
+    "title": "Adaptation and Reception Studies"
+  },
+  "CMAP 3400": {
+    "coid": "18775",
+    "title": "Advanced Acting"
+  },
+  "CMAP 4000": {
+    "coid": "18879",
+    "title": "Nexus Portfolio"
+  },
+  "CMAP 4060": {
+    "coid": "18570",
+    "title": "Cinema and Media Arts Capstone Project"
+  },
+  "CMAP 4100": {
+    "coid": "18572",
+    "title": "Directors Workshop"
+  },
+  "CMAP 4581": {
+    "coid": "18571",
+    "title": "Writers Room"
+  },
+  "CMAP 4952": {
+    "coid": "18569",
+    "title": "Cinema and Media Arts Production Internship"
+  },
+  "COMM 1100": {
+    "coid": "17958",
+    "title": "Human Communications (eCore)"
+  },
+  "COMM 1110": {
+    "coid": "17959",
+    "title": "Public Speaking"
+  },
+  "COMM 2100": {
+    "coid": "17960",
+    "title": "Media and Society"
+  },
+  "COMM 3000": {
+    "coid": "19904",
+    "title": "Professinal Communication for the Arts"
+  },
+  "CSCI 1301": {
+    "coid": "18781",
+    "title": "Computer Science I (eCore)"
+  },
+  "CTLS 2100": {
+    "coid": "18915",
+    "title": "Introduction to Cultural Studies"
+  },
+  "DATA 1501": {
+    "coid": "18760",
+    "title": "Introduction to Data Science"
+  },
+  "ECON 1101": {
+    "coid": "19901",
+    "title": "Economics of Financial Literacy"
+  },
+  "ECON 2100": {
+    "coid": "17997",
+    "title": "Introduction to Economics"
+  },
+  "ECON 2105": {
+    "coid": "17998",
+    "title": "Principles of Macroeconomics"
+  },
+  "ECON 2106": {
+    "coid": "17999",
+    "title": "Principles of Microeconomics"
+  },
+  "ECON 3101": {
+    "coid": "18000",
+    "title": "Money and Banking"
+  },
+  "ECON 3102": {
+    "coid": "18001",
+    "title": "Intermediate Microeconomics"
+  },
+  "ECON 3103": {
+    "coid": "18002",
+    "title": "Intermediate Macroeconomics"
+  },
+  "ECON 3400": {
+    "coid": "18003",
+    "title": "Public Sector Economics"
+  },
+  "ECON 3600": {
+    "coid": "18870",
+    "title": "Business Intelligence for Managers"
+  },
+  "ECON 4101": {
+    "coid": "18004",
+    "title": "International Economics"
+  },
+  "ECON 4102": {
+    "coid": "18005",
+    "title": "Labor Economics"
+  },
+  "ECON 4103": {
+    "coid": "18006",
+    "title": "Environmental Economics"
+  },
+  "ECON 4120": {
+    "coid": "18007",
+    "title": "Econometrics"
+  },
+  "ECON 4200": {
+    "coid": "18782",
+    "title": "Game Theory"
+  },
+  "ECON 4650": {
+    "coid": "18736",
+    "title": "Business Research Methods"
+  },
+  "ECON 4700": {
+    "coid": "18008",
+    "title": "Selected Topics in Economics"
+  },
+  "EDUC 2110": {
+    "coid": "18009",
+    "title": "Critical and Contemporary Issues in Education"
+  },
+  "EDUC 2120": {
+    "coid": "18010",
+    "title": "Exploring Socio-Cultural Perspectives on Diversity in Educational Contexts-INTL"
+  },
+  "EDUC 2130": {
+    "coid": "18011",
+    "title": "Exploring Teaching and Learning"
+  },
+  "EDUC 3000": {
+    "coid": "18618",
+    "title": "Special Topics in Education"
+  },
+  "EDUC 3300": {
+    "coid": "18012",
+    "title": "Characteristics of Students with Special Needs for Secondary Education"
+  },
+  "EDUC 3400A": {
+    "coid": "18738",
+    "title": "Teaching and Learning in Secondary Education"
+  },
+  "EDUC 3400B": {
+    "coid": "18737",
+    "title": "Secondary Education Field I"
+  },
+  "EDUC 3605": {
+    "coid": "18875",
+    "title": "Secondary Education Practicum II"
+  },
+  "EDUC 3610": {
+    "coid": "18887",
+    "title": "Middle Grades and Secondary Social Studies Methods"
+  },
+  "EDUC 3620": {
+    "coid": "18876",
+    "title": "Middle Grades and Secondary English Lanaguage Arts Methods"
+  },
+  "EDUC 3630": {
+    "coid": "18888",
+    "title": "Middle Grades and Secondary Science Methods"
+  },
+  "EDUC 3640": {
+    "coid": "18889",
+    "title": "Middle Grades and Secondary Mathematics Methods"
+  },
+  "EDUC 3650A": {
+    "coid": "18740",
+    "title": "Instructional Methods in the Secondary Classroom"
+  },
+  "EDUC 3650B": {
+    "coid": "18739",
+    "title": "Secondary Education Field II"
+  },
+  "EDUC 3650C": {
+    "coid": "18741",
+    "title": "Differentiated Topics Seminar in Secondary Education"
+  },
+  "EDUC 3700": {
+    "coid": "18742",
+    "title": "Digital Age Teaching Seminar"
+  },
+  "EDUC 4010": {
+    "coid": "18015",
+    "title": "Opening of School Experience: ELED"
+  },
+  "EDUC 4020": {
+    "coid": "18016",
+    "title": "Opening of School Experience: SPED"
+  },
+  "EDUC 4030": {
+    "coid": "18017",
+    "title": "Opening of School Experience: Biology"
+  },
+  "EDUC 4040": {
+    "coid": "18018",
+    "title": "Opening of School Experience: English"
+  },
+  "EDUC 4050": {
+    "coid": "18019",
+    "title": "Opening of School Experience: History"
+  },
+  "EDUC 4060": {
+    "coid": "18020",
+    "title": "Opening of School Experience: Mathematics"
+  },
+  "EDUC 4070": {
+    "coid": "18021",
+    "title": "Opening of School Experience: Political Science"
+  },
+  "EDUC 4080": {
+    "coid": "18592",
+    "title": "Opening of School Experience Chemistry"
+  },
+  "EDUC 4090": {
+    "coid": "18635",
+    "title": "Opening of School Experience: Middle Grades"
+  },
+  "EDUC 4400": {
+    "coid": "18891",
+    "title": "Social and Emotional Learning Practices in the Classroom"
+  },
+  "EDUC 4600A": {
+    "coid": "18580",
+    "title": "Instructional Adaptation in Grades 6-12"
+  },
+  "EDUC 4600B": {
+    "coid": "18579",
+    "title": "Educational Assessment in Grades 6-12"
+  },
+  "EDUC 4600C": {
+    "coid": "18587",
+    "title": "Grades 6-12 Practicum"
+  },
+  "EDUC 4800": {
+    "coid": "18024",
+    "title": "Leadership Seminar"
+  },
+  "EDUC 4815A": {
+    "coid": "18025",
+    "title": "Student Teaching: Professional Practices"
+  },
+  "EDUC 4815B": {
+    "coid": "18026",
+    "title": "Student Teaching: Planning and Assessment"
+  },
+  "EDUC 4825A": {
+    "coid": "18027",
+    "title": "Student Teaching: Professional Practices"
+  },
+  "EDUC 4825B": {
+    "coid": "18028",
+    "title": "Student Teaching: Planning and Assessment"
+  },
+  "EDUC 4835A": {
+    "coid": "18029",
+    "title": "Student Teaching: Professional Practices"
+  },
+  "EDUC 4835B": {
+    "coid": "18030",
+    "title": "Student Teaching: Planning & Assessment"
+  },
+  "EDUC 4845A": {
+    "coid": "18031",
+    "title": "Student Teaching: Professional Practices"
+  },
+  "EDUC 4845B": {
+    "coid": "18032",
+    "title": "Student Teaching: Planning and Assessment"
+  },
+  "EDUC 4855A": {
+    "coid": "18033",
+    "title": "Student Teaching: Professional Practices"
+  },
+  "EDUC 4855B": {
+    "coid": "18034",
+    "title": "Student Teaching: Planning and Assessment"
+  },
+  "EDUC 4865A": {
+    "coid": "18035",
+    "title": "Student Teaching: Professional Practices"
+  },
+  "EDUC 4865B": {
+    "coid": "18036",
+    "title": "Student Teaching: Planning and Assessment"
+  },
+  "EDUC 4875A": {
+    "coid": "18037",
+    "title": "Student Teaching: Professional Practices"
+  },
+  "EDUC 4875B": {
+    "coid": "18038",
+    "title": "Student Teaching: Planning & Assessment"
+  },
+  "EDUC 4885A": {
+    "coid": "18602",
+    "title": "Student Teaching: Professional Practices - Chemistry"
+  },
+  "EDUC 4885B": {
+    "coid": "18601",
+    "title": "Student Teaching: Planning and Assessment Chemistry"
+  },
+  "EDUC 4895A": {
+    "coid": "18636",
+    "title": "Student Teaching: Professional Practices-Middle Grades"
+  },
+  "EDUC 4895B": {
+    "coid": "18637",
+    "title": "Student Teaching: Planning and Assessment Middle Grades Education"
+  },
+  "ELAN 3000": {
+    "coid": "18106",
+    "title": "Language, Literacy and Culture"
+  },
+  "ELAN 3500": {
+    "coid": "18634",
+    "title": "Literacies and Literature for Adolescent Readers"
+  },
+  "ELAN 4000": {
+    "coid": "18813",
+    "title": "Language and Literacy as Cultural Practice-INTL"
+  },
+  "ELED 3100": {
+    "coid": "17993",
+    "title": "Characteristics of Students with Special Needs for Elementary Education"
+  },
+  "ELED 3400A": {
+    "coid": "18745",
+    "title": "Curriculum and Instruction in Elementary Education"
+  },
+  "ELED 3400B": {
+    "coid": "18746",
+    "title": "Elementary Education Field I"
+  },
+  "ELED 3550A": {
+    "coid": "18747",
+    "title": "Integrated Instruction and Methods for the Elementary Classroom"
+  },
+  "ELED 3550B": {
+    "coid": "18748",
+    "title": "Elementary Education Field II"
+  },
+  "ELED 4600A": {
+    "coid": "18584",
+    "title": "Instructional Adaption in Elementary Classrooms"
+  },
+  "ELED 4600B": {
+    "coid": "18582",
+    "title": "Educational Assessment in Elementary Classrooms"
+  },
+  "ELED 4600C": {
+    "coid": "18586",
+    "title": "Elementary Education Practicum"
+  },
+  "EMAT 3200": {
+    "coid": "18633",
+    "title": "Topics in Middle Grades Mathematics"
+  },
+  "ENGL 0999": {
+    "coid": "18040",
+    "title": "Support for English Composition"
+  },
+  "ENGL 1101": {
+    "coid": "21962",
+    "title": "English Composition I"
+  },
+  "ENGL 1101H": {
+    "coid": "18042",
+    "title": "English Composition I Honors"
+  },
+  "ENGL 1102": {
+    "coid": "18043",
+    "title": "English Composition II"
+  },
+  "ENGL 1102H": {
+    "coid": "18044",
+    "title": "English Composition II Honors"
+  },
+  "ENGL 2010": {
+    "coid": "18908",
+    "title": "Writing in the Social Sciences"
+  },
+  "ENGL 2050": {
+    "coid": "18058",
+    "title": "Modern English Grammar"
+  },
+  "ENGL 2111": {
+    "coid": "18046",
+    "title": "World Literature I"
+  },
+  "ENGL 2112": {
+    "coid": "18047",
+    "title": "World Literature II"
+  },
+  "ENGL 2121": {
+    "coid": "18049",
+    "title": "British Literature I"
+  },
+  "ENGL 2122": {
+    "coid": "18050",
+    "title": "British Literature II"
+  },
+  "ENGL 2131": {
+    "coid": "18052",
+    "title": "American Literature I"
+  },
+  "ENGL 2132": {
+    "coid": "18053",
+    "title": "American Literature II"
+  },
+  "ENGL 2150": {
+    "coid": "18061",
+    "title": "Introduction to Poetry"
+  },
+  "ENGL 2801": {
+    "coid": "18054",
+    "title": "Introduction to Rhetorical Studies"
+  },
+  "ENGL 2820": {
+    "coid": "18613",
+    "title": "Writing for the Public"
+  },
+  "ENGL 2866": {
+    "coid": "18084",
+    "title": "Introduction to Professions in Writing"
+  },
+  "ENGL 2900": {
+    "coid": "18792",
+    "title": "Introduction to Literary Studies"
+  },
+  "ENGL 3000": {
+    "coid": "18055",
+    "title": "English Content Methods"
+  },
+  "ENGL 3040": {
+    "coid": "18057",
+    "title": "Introduction to Language and Linguistics"
+  },
+  "ENGL 3051": {
+    "coid": "18730",
+    "title": "TESOL Approaches and Methods"
+  },
+  "ENGL 3055": {
+    "coid": "18805",
+    "title": "Middle Grades English Methods"
+  },
+  "ENGL 3060": {
+    "coid": "18725",
+    "title": "Environmental Writing"
+  },
+  "ENGL 3070": {
+    "coid": "18059",
+    "title": "Principles of Technical and Professional Editing"
+  },
+  "ENGL 3222": {
+    "coid": "18062",
+    "title": "Literature and the Disciplines"
+  },
+  "ENGL 3250": {
+    "coid": "18063",
+    "title": "Studies in Women's Literature"
+  },
+  "ENGL 3331": {
+    "coid": "18065",
+    "title": "Advanced Studies in American Literature I"
+  },
+  "ENGL 3332": {
+    "coid": "18066",
+    "title": "Advanced Studies in American Literature II"
+  },
+  "ENGL 3343": {
+    "coid": "18067",
+    "title": "Studies in African American Literature"
+  },
+  "ENGL 3350": {
+    "coid": "18068",
+    "title": "Ancient and Medieval Literature"
+  },
+  "ENGL 3435": {
+    "coid": "18069",
+    "title": "Advanced Studies in Nineteenth Century British Literature"
+  },
+  "ENGL 3436": {
+    "coid": "18070",
+    "title": "Victorian Literature"
+  },
+  "ENGL 3437": {
+    "coid": "18071",
+    "title": "Advanced Studies in Twentieth-Century British Literature"
+  },
+  "ENGL 3450": {
+    "coid": "18072",
+    "title": "Renaissance Literature"
+  },
+  "ENGL 3505": {
+    "coid": "18073",
+    "title": "The Novel"
+  },
+  "ENGL 3600": {
+    "coid": "18075",
+    "title": "Advanced Composition"
+  },
+  "ENGL 3800": {
+    "coid": "18077",
+    "title": "Introduction to Creative Writing"
+  },
+  "ENGL 3822": {
+    "coid": "18078",
+    "title": "Creative Writing: Fiction"
+  },
+  "ENGL 3825": {
+    "coid": "18079",
+    "title": "Theories and Practice in Peer Tutoring"
+  },
+  "ENGL 3832": {
+    "coid": "18080",
+    "title": "Creative Writing: Poetry"
+  },
+  "ENGL 3842": {
+    "coid": "18081",
+    "title": "Creative Writing: Scripts"
+  },
+  "ENGL 3850": {
+    "coid": "18082",
+    "title": "History of Rhetoric"
+  },
+  "ENGL 3852": {
+    "coid": "18623",
+    "title": "Creative Writing:: Creative Nonfiction"
+  },
+  "ENGL 3857": {
+    "coid": "18083",
+    "title": "Technical Writing and Communication Practices"
+  },
+  "ENGL 3860": {
+    "coid": "18717",
+    "title": "Grant Writing"
+  },
+  "ENGL 3866": {
+    "coid": "18857",
+    "title": "Introduction to Professional Writing"
+  },
+  "ENGL 3870": {
+    "coid": "18085",
+    "title": "Basic News Writing and Reporting"
+  },
+  "ENGL 3880": {
+    "coid": "18086",
+    "title": "Writing and Digital Media"
+  },
+  "ENGL 3890": {
+    "coid": "18087",
+    "title": "Rhetorical Criticism"
+  },
+  "ENGL 3900": {
+    "coid": "18088",
+    "title": "Theories and Practice in Teaching Writing"
+  },
+  "ENGL 4000": {
+    "coid": "18089",
+    "title": "English Experiential/Service Learning"
+  },
+  "ENGL 4200": {
+    "coid": "18090",
+    "title": "Special Topics, English"
+  },
+  "ENGL 4201": {
+    "coid": "18652",
+    "title": "Special Topics in Literary and Cultural Studies"
+  },
+  "ENGL 4202": {
+    "coid": "18651",
+    "title": "Special Topics in Writing Studies"
+  },
+  "ENGL 4210": {
+    "coid": "18091",
+    "title": "Selected Authors"
+  },
+  "ENGL 4410": {
+    "coid": "18092",
+    "title": "The Literature and Culture of the Enlightment"
+  },
+  "ENGL 4412": {
+    "coid": "18093",
+    "title": "Studies in Shakespeare"
+  },
+  "ENGL 4630": {
+    "coid": "18096",
+    "title": "Studies in Modern Literature"
+  },
+  "ENGL 4635": {
+    "coid": "18931",
+    "title": "Studies in Genre Fiction"
+  },
+  "ENGL 4720": {
+    "coid": "18097",
+    "title": "American Realism and Naturalism"
+  },
+  "ENGL 4850": {
+    "coid": "18099",
+    "title": "Senior Seminar"
+  },
+  "ENGL 4855": {
+    "coid": "18829",
+    "title": "Principles of Publication"
+  },
+  "ENGL 4862": {
+    "coid": "19906",
+    "title": "Advanced Studies in Creative Writing"
+  },
+  "ENGL 4872": {
+    "coid": "19908",
+    "title": "Advanced Creative Writing Workshop"
+  },
+  "ENGL 4875": {
+    "coid": "18101",
+    "title": "Applied Journalism"
+  },
+  "ENGL 4880": {
+    "coid": "18102",
+    "title": "Visual and Digital Rhetoric"
+  },
+  "ENVS 1101K": {
+    "coid": "18107",
+    "title": "Introduction to Environmental Science: Natural Science"
+  },
+  "ENVS 1102": {
+    "coid": "18109",
+    "title": "Culture and Environment"
+  },
+  "ENVS 3010": {
+    "coid": "18110",
+    "title": "Environmental Ethics"
+  },
+  "ENVS 3020": {
+    "coid": "18111",
+    "title": "Environmental Law"
+  },
+  "ENVS 3060": {
+    "coid": "18724",
+    "title": "Environmental Writing"
+  },
+  "ENVS 3200": {
+    "coid": "18645",
+    "title": "Environmental Chemistry"
+  },
+  "ENVS 3600": {
+    "coid": "18902",
+    "title": "Environmental Policy"
+  },
+  "ENVS 4000": {
+    "coid": "18721",
+    "title": "Sustainable Development"
+  },
+  "ENVS 4420K": {
+    "coid": "18647",
+    "title": "Environmental Microbiology"
+  },
+  "ENVS 4750": {
+    "coid": "18646",
+    "title": "Environmental Toxicology"
+  },
+  "ENVS 4800": {
+    "coid": "18723",
+    "title": "Internship in Environmental Science"
+  },
+  "ENVS 4850": {
+    "coid": "18896",
+    "title": "Internship in Environmental Principles and Sustanabilty"
+  },
+  "ENVS 4900": {
+    "coid": "18108",
+    "title": "Capstone Interdisciplinary Research"
+  },
+  "ESCI 2800": {
+    "coid": "18877",
+    "title": "Earth and Space Science for Preservice Teachers"
+  },
+  "ESCI 3550": {
+    "coid": "18874",
+    "title": "Topics in Middle Grades Science"
+  },
+  "ESCI 3600": {
+    "coid": "18630",
+    "title": "Science Content Methods for Middle Grades"
+  },
+  "ESCI 3650": {
+    "coid": "18797",
+    "title": "Middle Grades Science Methods"
+  },
+  "EXSC 2000": {
+    "coid": "18907",
+    "title": "Introduction to Exercise Science and Wellness Promotion"
+  },
+  "EXSC 2800": {
+    "coid": "19900",
+    "title": "Exercise Biochemistry"
+  },
+  "EXSC 3050": {
+    "coid": "18681",
+    "title": "Research Methods: Evidence-Based Practice"
+  },
+  "EXSC 3101K": {
+    "coid": "18114",
+    "title": "Exercise Physiology"
+  },
+  "EXSC 3150": {
+    "coid": "18115",
+    "title": "Applications of Aerobic and Anaerobic Exercise"
+  },
+  "EXSC 3200": {
+    "coid": "18116",
+    "title": "Exercise and Sport Psychology"
+  },
+  "EXSC 3250": {
+    "coid": "18675",
+    "title": "Changing Health Behaviors"
+  },
+  "EXSC 3350": {
+    "coid": "18117",
+    "title": "Community Health and Wellness"
+  },
+  "EXSC 3400": {
+    "coid": "18680",
+    "title": "Global Health"
+  },
+  "EXSC 3450": {
+    "coid": "18679",
+    "title": "Introduction to Epidemiology"
+  },
+  "EXSC 3500K": {
+    "coid": "18118",
+    "title": "Biomechanics"
+  },
+  "EXSC 3610": {
+    "coid": "18682",
+    "title": "Health, Disease and Nutrition"
+  },
+  "EXSC 3700": {
+    "coid": "18119",
+    "title": "Human Motor Learning and Control"
+  },
+  "EXSC 3800": {
+    "coid": "18120",
+    "title": "Nutrition in Health and Exercise"
+  },
+  "EXSC 4000": {
+    "coid": "18121",
+    "title": "Physical Dimensions of Aging"
+  },
+  "EXSC 4100K": {
+    "coid": "18122",
+    "title": "Testing and Prescription of Exercise"
+  },
+  "EXSC 4150": {
+    "coid": "18123",
+    "title": "Principles of Strength and Conditioning"
+  },
+  "EXSC 4200": {
+    "coid": "18124",
+    "title": "Epidemiology and Physical Activity"
+  },
+  "EXSC 4250": {
+    "coid": "18676",
+    "title": "Health Communication"
+  },
+  "EXSC 4300": {
+    "coid": "18125",
+    "title": "Worksite Health Promotion"
+  },
+  "EXSC 4400": {
+    "coid": "18126",
+    "title": "Health Promotion Program Planning"
+  },
+  "EXSC 4410": {
+    "coid": "18127",
+    "title": "General Medical Conditions in the Active Population"
+  },
+  "EXSC 4420": {
+    "coid": "18128",
+    "title": "Rehabilitation Techniques in Sports Medicine"
+  },
+  "EXSC 4500": {
+    "coid": "18677",
+    "title": "Clinical Exercise Physiology"
+  },
+  "EXSC 4700": {
+    "coid": "18129",
+    "title": "Exercise Science Internship"
+  },
+  "EXSC 4750": {
+    "coid": "18678",
+    "title": "Exercise Science Practicum"
+  },
+  "FILM 1005": {
+    "coid": "18130",
+    "title": "Introduction to Film"
+  },
+  "FILM 2100": {
+    "coid": "18552",
+    "title": "Acting for the Screen"
+  },
+  "FILM 2200": {
+    "coid": "18807",
+    "title": "Production Basics"
+  },
+  "FILM 2700": {
+    "coid": "18131",
+    "title": "Film History"
+  },
+  "FILM 3005": {
+    "coid": "18549",
+    "title": "Film Theory"
+  },
+  "FILM 3010": {
+    "coid": "18132",
+    "title": "Video Production I"
+  },
+  "FILM 3020": {
+    "coid": "18555",
+    "title": "Video Production II"
+  },
+  "FILM 3030": {
+    "coid": "18553",
+    "title": "Screenwriting for Film and Television"
+  },
+  "FILM 3040": {
+    "coid": "18568",
+    "title": "Survey of Animation"
+  },
+  "FILM 3050": {
+    "coid": "18772",
+    "title": "Feature Screenplay Writing"
+  },
+  "FILM 3105": {
+    "coid": "18919",
+    "title": "Nonlinear Editing"
+  },
+  "FILM 3140": {
+    "coid": "18932",
+    "title": "3D Animation and Storytelling"
+  },
+  "FILM 3180": {
+    "coid": "18133",
+    "title": "International Cinemas"
+  },
+  "FILM 3280": {
+    "coid": "18134",
+    "title": "Film Genres"
+  },
+  "FILM 3380": {
+    "coid": "18135",
+    "title": "Film Authorship"
+  },
+  "FILM 3480": {
+    "coid": "18554",
+    "title": "The Art of Cinematography"
+  },
+  "FILM 4000K": {
+    "coid": "18136",
+    "title": "Special Topics in Film"
+  },
+  "FILM 4080": {
+    "coid": "18137",
+    "title": "Gender and Film"
+  },
+  "FILM 4090": {
+    "coid": "18556",
+    "title": "Race and Media"
+  },
+  "FILM 4200": {
+    "coid": "18551",
+    "title": "Television Studies"
+  },
+  "FILM 4400": {
+    "coid": "18550",
+    "title": "Media Industries"
+  },
+  "FINA 3000": {
+    "coid": "18138",
+    "title": "Financial Management I"
+  },
+  "FINA 3102": {
+    "coid": "18140",
+    "title": "Financial Management II"
+  },
+  "FINA 4010": {
+    "coid": "19907",
+    "title": "Introduction to Fintech"
+  },
+  "FINA 4101": {
+    "coid": "18142",
+    "title": "International Finance"
+  },
+  "FINA 4103": {
+    "coid": "18143",
+    "title": "Investment Analysis"
+  },
+  "FINA 4104": {
+    "coid": "18144",
+    "title": "Financial Derivatives"
+  },
+  "FINA 4105": {
+    "coid": "18145",
+    "title": "Financial Planning"
+  },
+  "FINA 4200": {
+    "coid": "18147",
+    "title": "Security Analysis and Portfolio Management"
+  },
+  "FINA 4201": {
+    "coid": "18148",
+    "title": "Financial Markets and Institutions"
+  },
+  "FINA 4202": {
+    "coid": "18149",
+    "title": "Mergers and Acquisitions"
+  },
+  "FINA 4700": {
+    "coid": "18150",
+    "title": "Special Topics in Finance"
+  },
+  "FINA 4751": {
+    "coid": "18151",
+    "title": "Internship in Finance"
+  },
+  "FREN 1001": {
+    "coid": "18152",
+    "title": "Elementary French I"
+  },
+  "FREN 1002": {
+    "coid": "18153",
+    "title": "Elementary French II"
+  },
+  "FREN 2001": {
+    "coid": "18154",
+    "title": "Intermediate French I"
+  },
+  "FREN 2002": {
+    "coid": "18155",
+    "title": "Intermediate French II"
+  },
+  "FREN 3010": {
+    "coid": "18156",
+    "title": "French Conversation and Composition"
+  },
+  "FREN 3045": {
+    "coid": "18157",
+    "title": "French Literature and Civilization in Translation"
+  },
+  "GEOG 1101": {
+    "coid": "18158",
+    "title": "Introduction to Human Geography"
+  },
+  "GEOG 1103": {
+    "coid": "18159",
+    "title": "Geographic Perspectives on Multiculturalism in the United States"
+  },
+  "GEOG 1111": {
+    "coid": "18160",
+    "title": "Introduction to Physical Geography"
+  },
+  "GEOG 1112": {
+    "coid": "18161",
+    "title": "Introduction to Weather and Climate"
+  },
+  "GEOG 1112L": {
+    "coid": "18162",
+    "title": "Introduction to Weather and Climate Laboratory"
+  },
+  "GEOG 1113": {
+    "coid": "18163",
+    "title": "Introduction to Landforms"
+  },
+  "GEOG 1113L": {
+    "coid": "18164",
+    "title": "Introduction to Landforms Laboratory"
+  },
+  "GEOG 1125": {
+    "coid": "18165",
+    "title": "Resources, Society and the Environment"
+  },
+  "GEOG 2201": {
+    "coid": "18166",
+    "title": "World Regional Geography"
+  },
+  "GEOG 3010": {
+    "coid": "18890",
+    "title": "Military Geography"
+  },
+  "GEOG 3310": {
+    "coid": "18886",
+    "title": "Historical Geography"
+  },
+  "GEOG 3320": {
+    "coid": "18167",
+    "title": "Geographical Information Science (GIS)"
+  },
+  "GEOG 3330": {
+    "coid": "18168",
+    "title": "Geography of the World Economy"
+  },
+  "GEOG 3340": {
+    "coid": "18169",
+    "title": "Cultural Geography"
+  },
+  "GEOG 4010": {
+    "coid": "18170",
+    "title": "Advanced Geographical Information Science"
+  },
+  "GEOG 4490": {
+    "coid": "18171",
+    "title": "Special Topics in Geography"
+  },
+  "GFA 1000": {
+    "coid": "18650",
+    "title": "Introduction to Film & Television Production"
+  },
+  "GFA 1040": {
+    "coid": "18786",
+    "title": "Introduction to Film and Television Post-Production"
+  },
+  "GFA 1500": {
+    "coid": "18802",
+    "title": "Introduction to Digital Entertainment, Esports and Game Development"
+  },
+  "GFA 2010": {
+    "coid": "18653",
+    "title": "GFA Set Construction & Scenic Painting"
+  },
+  "GFA 2020": {
+    "coid": "18658",
+    "title": "GFA Electric and Lighting"
+  },
+  "GFA 2030": {
+    "coid": "18659",
+    "title": "GFA Grip and Rigging"
+  },
+  "GFA 2040": {
+    "coid": "18654",
+    "title": "GFA Post Production: Film & Television/Avid Edit"
+  },
+  "GFA 2050": {
+    "coid": "18649",
+    "title": "GFA: Introduction to Special Makeup Effects"
+  },
+  "GFA 2060": {
+    "coid": "18662",
+    "title": "GFA - Production Accounting & Office Management"
+  },
+  "GFA 2080": {
+    "coid": "18863",
+    "title": "Introduction to the Camera Department"
+  },
+  "GFA 2100": {
+    "coid": "18864",
+    "title": "Production Crew Externship"
+  },
+  "GFA 2140": {
+    "coid": "18850",
+    "title": "Fundamentals of Sound Design with Avid Pro Tools 100"
+  },
+  "GFA 2310": {
+    "coid": "18865",
+    "title": "Fundamentals of Unreal Engine"
+  },
+  "GFA 2510": {
+    "coid": "18803",
+    "title": "Event Management for Digital Entertainment & Esports"
+  },
+  "GFA 2520": {
+    "coid": "18801",
+    "title": "Hosting & Casting for Digital Entertainment & Esports"
+  },
+  "GFA 3010": {
+    "coid": "18704",
+    "title": "Production Design I"
+  },
+  "GFA 3020": {
+    "coid": "18707",
+    "title": "Motion Picture Set Lighting I"
+  },
+  "GFA 3030": {
+    "coid": "19912",
+    "title": "Motion Picture Gripping"
+  },
+  "GFA 3040": {
+    "coid": "18710",
+    "title": "Introduction to Editing with Avid Media Composer I00"
+  },
+  "GFA 3060": {
+    "coid": "18929",
+    "title": "Production Management & Film Accounting"
+  },
+  "GFA 3070": {
+    "coid": "18867",
+    "title": "Film & Television Costumes and Wardrobe"
+  },
+  "GFA 3080": {
+    "coid": "18868",
+    "title": "The Camera Department for Film and Television"
+  },
+  "GFA 3140": {
+    "coid": "18705",
+    "title": "Introduction to sound Design w/Avid Pro Tools 100"
+  },
+  "GFA 3310": {
+    "coid": "18869",
+    "title": "Introduction to Unreal Engines"
+  },
+  "GFA 3510": {
+    "coid": "18800",
+    "title": "Digital Entertainment & Esports Event Design"
+  },
+  "GFA 3520": {
+    "coid": "18839",
+    "title": "Digital Entertainment & Esports Creative Development"
+  },
+  "GFA 4000": {
+    "coid": "18695",
+    "title": "Film, Television & Digital Entertainment Apprenticeship"
+  },
+  "GFA 4010": {
+    "coid": "18708",
+    "title": "Production Design II"
+  },
+  "GFA 4020": {
+    "coid": "18709",
+    "title": "Motion Picture Set Lighting II"
+  },
+  "GFA 4040": {
+    "coid": "18706",
+    "title": "Advanced Editing with Avid Media Composer 200"
+  },
+  "GFA 4100": {
+    "coid": "18871",
+    "title": "Production Crew Practicum"
+  },
+  "GFA 4140": {
+    "coid": "18785",
+    "title": "Advanced Sound Design with Avid Pro Tools 2000"
+  },
+  "GGC 1000": {
+    "coid": "18172",
+    "title": "First Year Seminar"
+  },
+  "GGC 2000": {
+    "coid": "18591",
+    "title": "Introduction to 21st Century Information"
+  },
+  "GLOB 2111": {
+    "coid": "18615",
+    "title": "Special Topics Abroad I"
+  },
+  "GLOB 3000": {
+    "coid": "18885",
+    "title": "Special Topics in Global Studies"
+  },
+  "GLOB 3111": {
+    "coid": "18614",
+    "title": "Special Topics Abroad II"
+  },
+  "GLOB 4000": {
+    "coid": "18173",
+    "title": "Global Studies Capstone Course"
+  },
+  "GNDR 2000": {
+    "coid": "18718",
+    "title": "Introduction to Gender Studies"
+  },
+  "GNDR 2500": {
+    "coid": "18851",
+    "title": "Introduction to Gender Theory and Criticism"
+  },
+  "GNDR 4650": {
+    "coid": "18852",
+    "title": "International Politics of Gender"
+  },
+  "HIST 1111": {
+    "coid": "18174",
+    "title": "Survey of World History/Civilization I"
+  },
+  "HIST 1111H": {
+    "coid": "18175",
+    "title": "History/Civilization I - Honors"
+  },
+  "HIST 1112": {
+    "coid": "18176",
+    "title": "Survey of World History/Civilization II"
+  },
+  "HIST 1121": {
+    "coid": "18177",
+    "title": "Survey of Western Civilization I"
+  },
+  "HIST 1122": {
+    "coid": "18178",
+    "title": "Survey of Western Civilization II"
+  },
+  "HIST 2111": {
+    "coid": "18179",
+    "title": "Survey of United States History I"
+  },
+  "HIST 2111H": {
+    "coid": "18180",
+    "title": "Survey of United States History I Honors"
+  },
+  "HIST 2112": {
+    "coid": "18181",
+    "title": "Survey of United States History II"
+  },
+  "HIST 2250": {
+    "coid": "18814",
+    "title": "Introduction to Research and Writing in History"
+  },
+  "HIST 2500": {
+    "coid": "18182",
+    "title": "Survey of Latin American History"
+  },
+  "HIST 2520": {
+    "coid": "18183",
+    "title": "Introduction to the History of the Middle East"
+  },
+  "HIST 2530": {
+    "coid": "18184",
+    "title": "Introduction to the History of India"
+  },
+  "HIST 2550": {
+    "coid": "18185",
+    "title": "Introduction to the Atlantic World"
+  },
+  "HIST 2560": {
+    "coid": "18712",
+    "title": "Introduction to East Asian History"
+  },
+  "HIST 3050": {
+    "coid": "18186",
+    "title": "History Content Methods"
+  },
+  "HIST 3070": {
+    "coid": "18806",
+    "title": "Middle Grades History Methods"
+  },
+  "HIST 3110": {
+    "coid": "18187",
+    "title": "Colonial America"
+  },
+  "HIST 3112": {
+    "coid": "18188",
+    "title": "Revolutionary America"
+  },
+  "HIST 3115": {
+    "coid": "18189",
+    "title": "The Early American Republic: 1815-1850"
+  },
+  "HIST 3120": {
+    "coid": "18190",
+    "title": "Civil War and Reconstruction"
+  },
+  "HIST 3125": {
+    "coid": "18191",
+    "title": "America in the Gilded Age and Progressive Era (1877-1919)"
+  },
+  "HIST 3135": {
+    "coid": "18192",
+    "title": "America Since 1945"
+  },
+  "HIST 3150": {
+    "coid": "18193",
+    "title": "US Economic History"
+  },
+  "HIST 3175": {
+    "coid": "18589",
+    "title": "History of the American South"
+  },
+  "HIST 3185": {
+    "coid": "18194",
+    "title": "American Military History"
+  },
+  "HIST 3200": {
+    "coid": "18195",
+    "title": "African American History to 1877"
+  },
+  "HIST 3203": {
+    "coid": "18196",
+    "title": "African American History since 1877"
+  },
+  "HIST 3225": {
+    "coid": "18197",
+    "title": "U.S. Social and Cultural History"
+  },
+  "HIST 3250": {
+    "coid": "18198",
+    "title": "American Environmental History"
+  },
+  "HIST 3265": {
+    "coid": "18199",
+    "title": "History of Georgia"
+  },
+  "HIST 3275": {
+    "coid": "18612",
+    "title": "The American Immigrant Experience"
+  },
+  "HIST 3310": {
+    "coid": "18200",
+    "title": "Greece and the Ancient Near East"
+  },
+  "HIST 3315": {
+    "coid": "18201",
+    "title": "Rome and the Mediterranean"
+  },
+  "HIST 3325": {
+    "coid": "18202",
+    "title": "Renaissance and Reformation Europe"
+  },
+  "HIST 3330": {
+    "coid": "18203",
+    "title": "Early Modern Europe 1500-1789"
+  },
+  "HIST 3335": {
+    "coid": "18204",
+    "title": "Revolutionary Europe"
+  },
+  "HIST 3340": {
+    "coid": "18205",
+    "title": "Modern Europe"
+  },
+  "HIST 3406": {
+    "coid": "18206",
+    "title": "History of Britain from its Origins to 1688"
+  },
+  "HIST 3407": {
+    "coid": "18207",
+    "title": "Modern Britain and the Empire 1688 to Present"
+  },
+  "HIST 3427": {
+    "coid": "18208",
+    "title": "Modern Germany"
+  },
+  "HIST 3507": {
+    "coid": "18209",
+    "title": "History of Modern Mexico"
+  },
+  "HIST 3510": {
+    "coid": "18210",
+    "title": "History of Colonial Latin America"
+  },
+  "HIST 3515": {
+    "coid": "18598",
+    "title": "Modern Latin America"
+  },
+  "HIST 3525": {
+    "coid": "18212",
+    "title": "Europe and the Islamicate World 6000-1800"
+  },
+  "HIST 3535": {
+    "coid": "18213",
+    "title": "History of Modern India and South Asia"
+  },
+  "HIST 3540": {
+    "coid": "18215",
+    "title": "History of China and Japan"
+  },
+  "HIST 3545": {
+    "coid": "18214",
+    "title": "The Byzantine Empire"
+  },
+  "HIST 3555": {
+    "coid": "18644",
+    "title": "History of the Ottoman Empire"
+  },
+  "HIST 3710": {
+    "coid": "18216",
+    "title": "Comparative Business History"
+  },
+  "HIST 3721": {
+    "coid": "18217",
+    "title": "History of Ancient and Medieval Science"
+  },
+  "HIST 3722": {
+    "coid": "18218",
+    "title": "History of Modern Science and Technology"
+  },
+  "HIST 3740": {
+    "coid": "18219",
+    "title": "Ancient and Medieval Military History"
+  },
+  "HIST 3760": {
+    "coid": "18220",
+    "title": "History of Politics and Culture from Antiquity to the Enlightenment"
+  },
+  "HIST 3775": {
+    "coid": "18221",
+    "title": "Medieval Life, Religion and Thought"
+  },
+  "HIST 3850": {
+    "coid": "18222",
+    "title": "Introduction to Public History"
+  },
+  "HIST 3870": {
+    "coid": "18842",
+    "title": "Historic Preservation"
+  },
+  "HIST 4145": {
+    "coid": "18223",
+    "title": "Sixties America"
+  },
+  "HIST 4250": {
+    "coid": "18224",
+    "title": "Intellectual and Cultural History of Colonial America"
+  },
+  "HIST 4388": {
+    "coid": "18225",
+    "title": "World War II"
+  },
+  "HIST 4527": {
+    "coid": "18226",
+    "title": "Jews and Christians in the Muslim World to 1800"
+  },
+  "HIST 4575": {
+    "coid": "18227",
+    "title": "The Atlantic Slave Trade"
+  },
+  "HIST 4670": {
+    "coid": "18228",
+    "title": "Social Revolutions in Modern Latin America"
+  },
+  "HIST 4780": {
+    "coid": "18229",
+    "title": "Cultural and Intellectual History of the Ancient Mediterranean World"
+  },
+  "HIST 4850": {
+    "coid": "18838",
+    "title": "Digital Humanities"
+  },
+  "HIST 4860": {
+    "coid": "18841",
+    "title": "Oral History"
+  },
+  "HIST 4870": {
+    "coid": "18840",
+    "title": "Introduction to Archival Studies"
+  },
+  "HIST 4900": {
+    "coid": "18230",
+    "title": "History Capstone"
+  },
+  "HIST 4920": {
+    "coid": "18715",
+    "title": "History Internship"
+  },
+  "HIST 4990": {
+    "coid": "18231",
+    "title": "Special Topics in History"
+  },
+  "HNRS 1000": {
+    "coid": "18232",
+    "title": "Working Title"
+  },
+  "HNRS 3000": {
+    "coid": "18233",
+    "title": "Honors Special Topics"
+  },
+  "HSCI 2000": {
+    "coid": "18688",
+    "title": "Medical Terminology"
+  },
+  "HSCI 3000": {
+    "coid": "18699",
+    "title": "Trends in Health Equity"
+  },
+  "HSCI 3001": {
+    "coid": "18811",
+    "title": "Healthcare Special Topics"
+  },
+  "HSCI 3010": {
+    "coid": "18684",
+    "title": "Collaborative Care in Health Professions"
+  },
+  "HSCI 3020": {
+    "coid": "18685",
+    "title": "Drug and Complementary Therapies"
+  },
+  "HSCI 3030": {
+    "coid": "18686",
+    "title": "Legal and Ethical Issues in Healthcare"
+  },
+  "HSCI 3040": {
+    "coid": "18687",
+    "title": "Healthcare Reimbursement and Finances"
+  },
+  "HSCI 3050": {
+    "coid": "18700",
+    "title": "Emergency Preparedness and Response"
+  },
+  "HSCI 4000": {
+    "coid": "19909",
+    "title": "A Cultural Exploration of Health through Food and Nutrition"
+  },
+  "HSCI 4050": {
+    "coid": "18920",
+    "title": "Health Science Internship"
+  },
+  "HSPH 4000": {
+    "coid": "18696",
+    "title": "Perspectives in Public Health"
+  },
+  "HSPH 4040": {
+    "coid": "18697",
+    "title": "Public Health Program Planning"
+  },
+  "HSPH 4050": {
+    "coid": "18698",
+    "title": "Public Health Implementation and Evaluation Capstone"
+  },
+  "HSPN 4000": {
+    "coid": "18693",
+    "title": "Perspectives in Healthcare Patient Navigation"
+  },
+  "HSPN 4010": {
+    "coid": "18692",
+    "title": "Advanced Collaborative Care"
+  },
+  "HSPN 4020": {
+    "coid": "18691",
+    "title": "Patient Navigation Practicum I"
+  },
+  "HSPN 4030": {
+    "coid": "18690",
+    "title": "Patient Navigation Practicum II"
+  },
+  "HSPN 4040": {
+    "coid": "18689",
+    "title": "Patient Navigation Practicum III"
+  },
+  "HSPN 4050": {
+    "coid": "18694",
+    "title": "Patient Navigation Capstone"
+  },
+  "HUSE 2000": {
+    "coid": "18808",
+    "title": "Introduction to Human Development"
+  },
+  "HUSE 2010": {
+    "coid": "18825",
+    "title": "Writing in the Social Sciences"
+  },
+  "HUSE 3000": {
+    "coid": "18827",
+    "title": "Global Aging"
+  },
+  "HUSE 3010": {
+    "coid": "18824",
+    "title": "Research Methods"
+  },
+  "HUSE 3100": {
+    "coid": "18826",
+    "title": "Infancy and Childhood"
+  },
+  "HUSE 3200": {
+    "coid": "18822",
+    "title": "Youth and Society"
+  },
+  "HUSE 3300": {
+    "coid": "18820",
+    "title": "Gerontology"
+  },
+  "HUSE 3400": {
+    "coid": "18818",
+    "title": "Human Services"
+  },
+  "HUSE 3500": {
+    "coid": "18804",
+    "title": "Social Justice and Advocacy"
+  },
+  "HUSE 3600": {
+    "coid": "18795",
+    "title": "Conflict Resolution"
+  },
+  "HUSE 3700": {
+    "coid": "18784",
+    "title": "The Practice of Social Work"
+  },
+  "HUSE 3800": {
+    "coid": "18903",
+    "title": "Social Work Practice with Historically Excluded Groups"
+  },
+  "HUSE 4000": {
+    "coid": "18812",
+    "title": "Work, Aging and Retirement"
+  },
+  "HUSE 4010": {
+    "coid": "18823",
+    "title": "Death, Grief and Dying"
+  },
+  "HUSE 4020": {
+    "coid": "18821",
+    "title": "Birth and Parenthood"
+  },
+  "HUSE 4100": {
+    "coid": "18810",
+    "title": "Special Topics in Human Services"
+  },
+  "HUSE 4500": {
+    "coid": "18819",
+    "title": "Senior Capstone"
+  },
+  "HUSE 4505": {
+    "coid": "18816",
+    "title": "Directed Reading and Research"
+  },
+  "HUSE 4510": {
+    "coid": "18817",
+    "title": "Internship"
+  },
+  "INTS 4000": {
+    "coid": "18776",
+    "title": "Integrative Studies Capstone"
+  },
+  "INTS 4900": {
+    "coid": "18777",
+    "title": "Integrative Studies Internship"
+  },
+  "ISCI 2001": {
+    "coid": "18277",
+    "title": "Integrated Life/Earth Science"
+  },
+  "ISCI 2002": {
+    "coid": "18278",
+    "title": "Integrated Physical Science"
+  },
+  "ISCI 2500K": {
+    "coid": "18918",
+    "title": "Physics and Earth Sciences with Lab"
+  },
+  "ISCI 3800": {
+    "coid": "18280",
+    "title": "Broad Field Science and Chemistry"
+  },
+  "ITEC 1001": {
+    "coid": "18234",
+    "title": "Introduction to Computing"
+  },
+  "ITEC 1001H": {
+    "coid": "18235",
+    "title": "Introduction to Computing Honors"
+  },
+  "ITEC 2110": {
+    "coid": "18236",
+    "title": "Digital Media"
+  },
+  "ITEC 2110-H": {
+    "coid": "18237",
+    "title": "Digital Media"
+  },
+  "ITEC 2120": {
+    "coid": "18238",
+    "title": "Introduction to Programming"
+  },
+  "ITEC 2130": {
+    "coid": "18239",
+    "title": "Web Technologies"
+  },
+  "ITEC 2135": {
+    "coid": "18656",
+    "title": "Engineering Graphics and Design"
+  },
+  "ITEC 2140": {
+    "coid": "18240",
+    "title": "Programming Fundamentals"
+  },
+  "ITEC 2150": {
+    "coid": "18241",
+    "title": "Object-Oriented Programming and Data Structures"
+  },
+  "ITEC 2201": {
+    "coid": "18242",
+    "title": "Introduction to Information Systems"
+  },
+  "ITEC 3100": {
+    "coid": "18243",
+    "title": "Introduction to Networks"
+  },
+  "ITEC 3110": {
+    "coid": "18713",
+    "title": "Design Concepts and Techniques for Digital Media"
+  },
+  "ITEC 3130": {
+    "coid": "18831",
+    "title": "Web Programming and Design"
+  },
+  "ITEC 3150": {
+    "coid": "18244",
+    "title": "Algorithms"
+  },
+  "ITEC 3160": {
+    "coid": "18893",
+    "title": "Programming for Data Analysis"
+  },
+  "ITEC 3170": {
+    "coid": "18899",
+    "title": "Data Intensive Fundamentals"
+  },
+  "ITEC 3200": {
+    "coid": "18245",
+    "title": "Introduction to Databases"
+  },
+  "ITEC 3300": {
+    "coid": "18246",
+    "title": "Information Security"
+  },
+  "ITEC 3350": {
+    "coid": "18247",
+    "title": "Digital Commerce"
+  },
+  "ITEC 3450": {
+    "coid": "18248",
+    "title": "Computer Graphics and Multimedia"
+  },
+  "ITEC 3500": {
+    "coid": "18774",
+    "title": "Information Technology Undergraduate Research"
+  },
+  "ITEC 3550": {
+    "coid": "18249",
+    "title": "User Centered Design"
+  },
+  "ITEC 3600": {
+    "coid": "18250",
+    "title": "Operating Systems"
+  },
+  "ITEC 3700": {
+    "coid": "18251",
+    "title": "Systems Analysis and Design"
+  },
+  "ITEC 3860": {
+    "coid": "18252",
+    "title": "Software Development I"
+  },
+  "ITEC 3870": {
+    "coid": "18253",
+    "title": "Software Development II"
+  },
+  "ITEC 3900": {
+    "coid": "18254",
+    "title": "Professional Practice and Ethics"
+  },
+  "ITEC 4000": {
+    "coid": "18638",
+    "title": "Cloud Computing Technologies"
+  },
+  "ITEC 4100": {
+    "coid": "18255",
+    "title": "Advanced Networks"
+  },
+  "ITEC 4110": {
+    "coid": "18256",
+    "title": "Digital Media Capstone Project"
+  },
+  "ITEC 4130": {
+    "coid": "18257",
+    "title": "Human Computer Interaction"
+  },
+  "ITEC 4150": {
+    "coid": "18258",
+    "title": "Enterprise Process Integration"
+  },
+  "ITEC 4170": {
+    "coid": "18259",
+    "title": "International Studies in Information Technology"
+  },
+  "ITEC 4200": {
+    "coid": "18260",
+    "title": "Advanced Databases"
+  },
+  "ITEC 4210": {
+    "coid": "18261",
+    "title": "Information Analytics"
+  },
+  "ITEC 4220": {
+    "coid": "18622",
+    "title": "Advanced Data Analytics"
+  },
+  "ITEC 4230": {
+    "coid": "18702",
+    "title": "Data Science & Analytics Capstone Project"
+  },
+  "ITEC 4250": {
+    "coid": "18262",
+    "title": "Embedded Systems"
+  },
+  "ITEC 4260": {
+    "coid": "18263",
+    "title": "Software Testing and QA"
+  },
+  "ITEC 4310": {
+    "coid": "18264",
+    "title": "Operating Systems Security"
+  },
+  "ITEC 4320": {
+    "coid": "18265",
+    "title": "Internet Security"
+  },
+  "ITEC 4330": {
+    "coid": "18266",
+    "title": "System Administration"
+  },
+  "ITEC 4340": {
+    "coid": "18866",
+    "title": "Ethical Hacking"
+  },
+  "ITEC 4400": {
+    "coid": "18267",
+    "title": "Special Topics in Information Technology"
+  },
+  "ITEC 4450": {
+    "coid": "18268",
+    "title": "Web Development"
+  },
+  "ITEC 4550": {
+    "coid": "18269",
+    "title": "Mobile Application Development"
+  },
+  "ITEC 4650": {
+    "coid": "18270",
+    "title": "Game Development"
+  },
+  "ITEC 4700": {
+    "coid": "18271",
+    "title": "Artificial Intelligence"
+  },
+  "ITEC 4750": {
+    "coid": "18272",
+    "title": "Enterprise Architecture Design"
+  },
+  "ITEC 4810": {
+    "coid": "18273",
+    "title": "Information Technology Project I"
+  },
+  "ITEC 4820": {
+    "coid": "18274",
+    "title": "Information Technology Project II"
+  },
+  "ITEC 4850": {
+    "coid": "18714",
+    "title": "3D Modeling and Computer Animation"
+  },
+  "ITEC 4860": {
+    "coid": "18275",
+    "title": "Software Development Project"
+  },
+  "ITEC 4900": {
+    "coid": "18276",
+    "title": "Information Technology Internship"
+  },
+  "LEAD 3000": {
+    "coid": "18281",
+    "title": "Essentials of Leadership"
+  },
+  "LEAD 3100": {
+    "coid": "18282",
+    "title": "Leading Organization Change"
+  },
+  "LEAD 3500": {
+    "coid": "18283",
+    "title": "Leadership in Teams"
+  },
+  "MATH 0996A": {
+    "coid": "18701",
+    "title": "Support for Elementary Statistics"
+  },
+  "MATH 0997A": {
+    "coid": "18626",
+    "title": "Support to Quantitative Reasoning ACCESS"
+  },
+  "MATH 0998A": {
+    "coid": "18600",
+    "title": "Introduction to Mathematical Modeling Support"
+  },
+  "MATH 0999B": {
+    "coid": "18288",
+    "title": "Support for College Algebra-Access Algebra"
+  },
+  "MATH 1001": {
+    "coid": "18289",
+    "title": "Quantitative Skills and Reasoning"
+  },
+  "MATH 1101*": {
+    "coid": "18599",
+    "title": "Introduction to Mathematical Modeling"
+  },
+  "MATH 1111": {
+    "coid": "18290",
+    "title": "College Algebra"
+  },
+  "MATH 1113": {
+    "coid": "18291",
+    "title": "Pre-calculus"
+  },
+  "MATH 1113H": {
+    "coid": "18292",
+    "title": "Pre-Calculus Honors"
+  },
+  "MATH 1401": {
+    "coid": "18663",
+    "title": "Elementary Statistics"
+  },
+  "MATH 1501": {
+    "coid": "18780",
+    "title": "Calculus I (eCore)"
+  },
+  "MATH 2008": {
+    "coid": "18294",
+    "title": "Foundations of Numbers and Operations"
+  },
+  "MATH 2050": {
+    "coid": "18720",
+    "title": "Statistical Data Analysis for the Sciences"
+  },
+  "MATH 2200": {
+    "coid": "18295",
+    "title": "Calculus I"
+  },
+  "MATH 2200H": {
+    "coid": "18296",
+    "title": "Calculus I Honors"
+  },
+  "MATH 2210": {
+    "coid": "18297",
+    "title": "Calculus II"
+  },
+  "MATH 2220": {
+    "coid": "18298",
+    "title": "Calculus III"
+  },
+  "MATH 2300": {
+    "coid": "18299",
+    "title": "Discrete Math"
+  },
+  "MATH 2450": {
+    "coid": "18300",
+    "title": "Linear Algebra"
+  },
+  "MATH 2500": {
+    "coid": "18301",
+    "title": "Foundations of Mathematics"
+  },
+  "MATH 2600": {
+    "coid": "18302",
+    "title": "Mathematical Modeling"
+  },
+  "MATH 3008": {
+    "coid": "18304",
+    "title": "Numeracy"
+  },
+  "MATH 3011": {
+    "coid": "18305",
+    "title": "Geometry for Teachers"
+  },
+  "MATH 3021": {
+    "coid": "18306",
+    "title": "Geometry"
+  },
+  "MATH 3050": {
+    "coid": "18798",
+    "title": "Statistical Methods"
+  },
+  "MATH 3100": {
+    "coid": "18307",
+    "title": "Differential Equations I"
+  },
+  "MATH 3111": {
+    "coid": "18308",
+    "title": "Algebra and Problem Solving"
+  },
+  "MATH 3300": {
+    "coid": "18309",
+    "title": "Mathematical Statistics I"
+  },
+  "MATH 3311": {
+    "coid": "18310",
+    "title": "Probability, Statistics and Problem Solving"
+  },
+  "MATH 3350": {
+    "coid": "18311",
+    "title": "Applied Mathematics"
+  },
+  "MATH 3400": {
+    "coid": "18312",
+    "title": "Applied Linear Algebra"
+  },
+  "MATH 3450": {
+    "coid": "18313",
+    "title": "Numerical Methods I"
+  },
+  "MATH 3500": {
+    "coid": "18314",
+    "title": "Abstract Algebra I"
+  },
+  "MATH 3550": {
+    "coid": "18315",
+    "title": "History of Mathematics"
+  },
+  "MATH 3600": {
+    "coid": "18316",
+    "title": "Mathematics Content Methods"
+  },
+  "MATH 3650": {
+    "coid": "18855",
+    "title": "Middle Grades Math Methods"
+  },
+  "MATH 3700": {
+    "coid": "18317",
+    "title": "Real Analysis I"
+  },
+  "MATH 4100": {
+    "coid": "18318",
+    "title": "Differential Equations II"
+  },
+  "MATH 4150": {
+    "coid": "18319",
+    "title": "Complex Analysis"
+  },
+  "MATH 4200": {
+    "coid": "18320",
+    "title": "Special Topics in Mathematics"
+  },
+  "MATH 4250": {
+    "coid": "18321",
+    "title": "Topology"
+  },
+  "MATH 4300": {
+    "coid": "18322",
+    "title": "Mathematical Statistics II"
+  },
+  "MATH 4500": {
+    "coid": "18323",
+    "title": "Abstract Algebra II"
+  },
+  "MATH 4600": {
+    "coid": "18324",
+    "title": "Advanced Mathematical Modeling"
+  },
+  "MATH 4700": {
+    "coid": "18325",
+    "title": "Real Analysis II"
+  },
+  "MATH 4800": {
+    "coid": "18853",
+    "title": "Internship in Mathematics"
+  },
+  "MATH 4900": {
+    "coid": "18326",
+    "title": "Mathematics Capstone"
+  },
+  "MGED 3300": {
+    "coid": "18628",
+    "title": "Characteristics of Students with Special Needs for Middle Grades Education"
+  },
+  "MGED 3400A": {
+    "coid": "18743",
+    "title": "Teaching and Learning in Middle Grades Education"
+  },
+  "MGED 3400B": {
+    "coid": "18744",
+    "title": "Middle Grades Field I"
+  },
+  "MGED 3600": {
+    "coid": "18796",
+    "title": "Middle Grades Education Field II"
+  },
+  "MGED 3900": {
+    "coid": "18898",
+    "title": "Dynamics of Middle Grades"
+  },
+  "MGED 4600A": {
+    "coid": "18629",
+    "title": "Instructional Adaptation in Middle Grades"
+  },
+  "MGED 4600B": {
+    "coid": "18631",
+    "title": "Educational Assessment in Middle Grades"
+  },
+  "MGED 4600C": {
+    "coid": "18632",
+    "title": "Middle Grades Practicum"
+  },
+  "MGMT 3000": {
+    "coid": "18327",
+    "title": "Principles of Management"
+  },
+  "MGMT 3040": {
+    "coid": "18328",
+    "title": "Human Resource Management"
+  },
+  "MGMT 3150": {
+    "coid": "18603",
+    "title": "Management Science"
+  },
+  "MGMT 3250": {
+    "coid": "18329",
+    "title": "Management of Non-Profit Organizations"
+  },
+  "MGMT 3400": {
+    "coid": "18330",
+    "title": "Ethics and Corporate Social Responsibility"
+  },
+  "MGMT 3700": {
+    "coid": "18284",
+    "title": "Decision Making and Creative Problem Solving"
+  },
+  "MGMT 4100": {
+    "coid": "18331",
+    "title": "Organizational Behavior"
+  },
+  "MGMT 4101": {
+    "coid": "18332",
+    "title": "International Management"
+  },
+  "MGMT 4105": {
+    "coid": "18333",
+    "title": "Theories of Motivation"
+  },
+  "MGMT 4200": {
+    "coid": "18334",
+    "title": "Organizations and Technology"
+  },
+  "MGMT 4220": {
+    "coid": "18335",
+    "title": "Project Management"
+  },
+  "MGMT 4300": {
+    "coid": "18336",
+    "title": "Entrepreneurship and New Ventures"
+  },
+  "MGMT 4350": {
+    "coid": "18337",
+    "title": "Leadership in 21st Century Organizations"
+  },
+  "MGMT 4400": {
+    "coid": "18338",
+    "title": "Negotiations"
+  },
+  "MGMT 4620": {
+    "coid": "18340",
+    "title": "Systems Analysis and Design for Managers"
+  },
+  "MGMT 4650": {
+    "coid": "18341",
+    "title": "International Management of IT"
+  },
+  "MGMT 4700": {
+    "coid": "18342",
+    "title": "Strategic Management (Capstone)"
+  },
+  "MIS 3100": {
+    "coid": "18719",
+    "title": "Management Information Systems"
+  },
+  "MIS 3300": {
+    "coid": "18732",
+    "title": "Web Analytics and Data Visualization"
+  },
+  "MIS 3600": {
+    "coid": "18766",
+    "title": "Business Intelligence for Managers"
+  },
+  "MIS 4200": {
+    "coid": "18765",
+    "title": "System Implementation for Managers"
+  },
+  "MIS 4220": {
+    "coid": "18762",
+    "title": "Project Management"
+  },
+  "MIS 4610": {
+    "coid": "18783",
+    "title": "IT Infrastructure and Security for Managers"
+  },
+  "MIS 4620": {
+    "coid": "18764",
+    "title": "Systems Analysis and Design for Managers"
+  },
+  "MIS 4650": {
+    "coid": "18763",
+    "title": "International Management of IT"
+  },
+  "MIS 4751": {
+    "coid": "18761",
+    "title": "Internship in Management Information Systems"
+  },
+  "MKTG 3000": {
+    "coid": "18343",
+    "title": "Principles of Marketing"
+  },
+  "MKTG 3050": {
+    "coid": "18344",
+    "title": "Consumer Behavior"
+  },
+  "MKTG 3200": {
+    "coid": "18346",
+    "title": "Business to Business Marketing"
+  },
+  "MKTG 3400": {
+    "coid": "18347",
+    "title": "Professional Selling"
+  },
+  "MKTG 3550": {
+    "coid": "18617",
+    "title": "Social Media Marketing"
+  },
+  "MKTG 4000": {
+    "coid": "18892",
+    "title": "Marketing Technology"
+  },
+  "MKTG 4025": {
+    "coid": "18348",
+    "title": "Marketing Research"
+  },
+  "MKTG 4100": {
+    "coid": "18349",
+    "title": "Marketing Management"
+  },
+  "MKTG 4200": {
+    "coid": "18350",
+    "title": "Promotion"
+  },
+  "MKTG 4300": {
+    "coid": "18351",
+    "title": "Advertising"
+  },
+  "MKTG 4301": {
+    "coid": "18352",
+    "title": "Entrepreneurship & New Venture"
+  },
+  "MKTG 4400": {
+    "coid": "18353",
+    "title": "International Marketing"
+  },
+  "MKTG 4450": {
+    "coid": "18354",
+    "title": "Digital Marketing in a Global Context"
+  },
+  "MKTG 4500": {
+    "coid": "18355",
+    "title": "Studies Abroad"
+  },
+  "MKTG 4650": {
+    "coid": "18733",
+    "title": "Business Research Methods"
+  },
+  "MKTG 4700": {
+    "coid": "18356",
+    "title": "Special Topics in Marketing"
+  },
+  "MKTG 4751": {
+    "coid": "18357",
+    "title": "Business Internship/Experiential Learning"
+  },
+  "MSL 1010": {
+    "coid": "18358",
+    "title": "Leadership and Personal Development I"
+  },
+  "MSL 1010L": {
+    "coid": "18359",
+    "title": "Leadership and Personal Development I Lab"
+  },
+  "MSL 1020": {
+    "coid": "18360",
+    "title": "Leadership and Personal Development II"
+  },
+  "MSL 1020L": {
+    "coid": "18361",
+    "title": "Leadership and Personal Development II Lab"
+  },
+  "MSL 2010": {
+    "coid": "18362",
+    "title": "Foundations of Leadership"
+  },
+  "MSL 2010L": {
+    "coid": "18363",
+    "title": "Foundations of Leadership Lab"
+  },
+  "MSL 2020": {
+    "coid": "18364",
+    "title": "Foundations of Tactical Leadership"
+  },
+  "MSL 2020L": {
+    "coid": "18365",
+    "title": "Foundations of Tactical Leadership Lab"
+  },
+  "MSL 3010": {
+    "coid": "18366",
+    "title": "Adaptive Team Leadership"
+  },
+  "MSL 3010L": {
+    "coid": "18367",
+    "title": "Adaptive Team Leadership Lab"
+  },
+  "MSL 3020": {
+    "coid": "18368",
+    "title": "Applied Team Leadership"
+  },
+  "MSL 3020L": {
+    "coid": "18369",
+    "title": "Applied Team Leadership"
+  },
+  "MSL 3500": {
+    "coid": "18370",
+    "title": "Military Science Independent Study I"
+  },
+  "MSL 4010": {
+    "coid": "18371",
+    "title": "Adaptive Leadership"
+  },
+  "MSL 4010L": {
+    "coid": "18372",
+    "title": "Seminar in Leadership and Management I Laboratory"
+  },
+  "MSL 4020": {
+    "coid": "18373",
+    "title": "Leadership in a Complex World"
+  },
+  "MSL 4020L": {
+    "coid": "18374",
+    "title": "Leadership in a Complex World Laboratory"
+  },
+  "MSL 4101": {
+    "coid": "19903",
+    "title": "U.S. Military History I"
+  },
+  "MSL 4102": {
+    "coid": "19902",
+    "title": "U.S. Military History II"
+  },
+  "MSL 4500": {
+    "coid": "18375",
+    "title": "Military Science Independent Study II"
+  },
+  "MUSC 1100": {
+    "coid": "18376",
+    "title": "Music Appreciation"
+  },
+  "MUSC 2020": {
+    "coid": "18377",
+    "title": "Survey of Latin American Music"
+  },
+  "MUSC 2110": {
+    "coid": "18912",
+    "title": "Music Theory I"
+  },
+  "MUSC 2120": {
+    "coid": "18913",
+    "title": "Music Theory II"
+  },
+  "MUSC 2200": {
+    "coid": "18378",
+    "title": "Survey and Analysis of Western Art Music"
+  },
+  "MUSC 2500": {
+    "coid": "18380",
+    "title": "Music Ensembles I"
+  },
+  "MUSC 3250": {
+    "coid": "18655",
+    "title": "Film Music"
+  },
+  "MUSC 3550": {
+    "coid": "18382",
+    "title": "Music Production and Sound Design for Digital Media"
+  },
+  "MUSC 3660": {
+    "coid": "19911",
+    "title": "Women in Music"
+  },
+  "MUSC 4000": {
+    "coid": "18716",
+    "title": "Special Topics in Music"
+  },
+  "MUSC 4500": {
+    "coid": "18880",
+    "title": "Music Ensembles II"
+  },
+  "NURS 3000": {
+    "coid": "18383",
+    "title": "Health Assessment"
+  },
+  "NURS 3001": {
+    "coid": "18858",
+    "title": "Nursing Special Topics"
+  },
+  "NURS 3011": {
+    "coid": "18665",
+    "title": "Integrated Pathophysiology and Pharmacology I"
+  },
+  "NURS 3012": {
+    "coid": "18666",
+    "title": "Integrated Pathophysiology and Pharmacology II"
+  },
+  "NURS 3020": {
+    "coid": "18385",
+    "title": "Wellness & Illness I"
+  },
+  "NURS 3022": {
+    "coid": "18386",
+    "title": "Wellness & Illness II"
+  },
+  "NURS 3030": {
+    "coid": "18387",
+    "title": "Professional Nursing I"
+  },
+  "NURS 3031": {
+    "coid": "18388",
+    "title": "Professional Nursing II"
+  },
+  "NURS 3040": {
+    "coid": "18389",
+    "title": "Nursing Research"
+  },
+  "NURS 4001": {
+    "coid": "18573",
+    "title": "A Cultural Exploration of Health through Food and Nutrition"
+  },
+  "NURS 4002": {
+    "coid": "18669",
+    "title": "Complementary and Altrnative Approaches to Health"
+  },
+  "NURS 4003": {
+    "coid": "18667",
+    "title": "Issues and Trends in Critical Care Nursing"
+  },
+  "NURS 4004": {
+    "coid": "18773",
+    "title": "Care of the Older Adult"
+  },
+  "NURS 4012": {
+    "coid": "18668",
+    "title": "Nursing Leadership"
+  },
+  "NURS 4019": {
+    "coid": "19896",
+    "title": "Wellness and Illness III"
+  },
+  "NURS 4021": {
+    "coid": "18396",
+    "title": "Wellness and Illness IV"
+  },
+  "NURS 4032": {
+    "coid": "18397",
+    "title": "Professional Nursing III"
+  },
+  "NURS 4040": {
+    "coid": "18398",
+    "title": "Nursing Capstone"
+  },
+  "NURS 4051": {
+    "coid": "18670",
+    "title": "Population Health Nursing"
+  },
+  "PHED 1010": {
+    "coid": "18402",
+    "title": "Beginning Badminton"
+  },
+  "PHED 1015": {
+    "coid": "18403",
+    "title": "Beginning Tennis"
+  },
+  "PHED 1020": {
+    "coid": "18799",
+    "title": "Intermediate Tennis"
+  },
+  "PHED 1025": {
+    "coid": "18404",
+    "title": "Power Stretch"
+  },
+  "PHED 1030": {
+    "coid": "18405",
+    "title": "Beginning Soccer"
+  },
+  "PHED 1040": {
+    "coid": "18406",
+    "title": "Volleyball"
+  },
+  "PHED 1050": {
+    "coid": "18407",
+    "title": "Body Sculpting and Core"
+  },
+  "PHED 1060": {
+    "coid": "18408",
+    "title": "Weight Training"
+  },
+  "PHED 1070": {
+    "coid": "18409",
+    "title": "Beginners Swimming"
+  },
+  "PHED 1071": {
+    "coid": "18410",
+    "title": "Intermediate Swimming"
+  },
+  "PHED 1080": {
+    "coid": "18411",
+    "title": "Fitness for Life Walking"
+  },
+  "PHED 1085": {
+    "coid": "18809",
+    "title": "Introduction to Dance Fitness"
+  },
+  "PHED 1090": {
+    "coid": "18412",
+    "title": "Cardio Kickboxing"
+  },
+  "PHED 1101": {
+    "coid": "18413",
+    "title": "Choices for Life"
+  },
+  "PHED 1102": {
+    "coid": "18414",
+    "title": "Physical Activities for Health and Well-being"
+  },
+  "PHED 1120": {
+    "coid": "18415",
+    "title": "Introduction to Golf"
+  },
+  "PHED 1125": {
+    "coid": "18854",
+    "title": "Golf Skills and Applications"
+  },
+  "PHED 1130": {
+    "coid": "18416",
+    "title": "Basics of Hiking"
+  },
+  "PHIL 2010": {
+    "coid": "18400",
+    "title": "Introduction to Philosophy"
+  },
+  "PHIL 3500": {
+    "coid": "18401",
+    "title": "Bioethics"
+  },
+  "PHYS 1111K": {
+    "coid": "18419",
+    "title": "Introductory Physics I with Laboratory"
+  },
+  "PHYS 1112K": {
+    "coid": "18420",
+    "title": "Introductory Physics II with Laboratory"
+  },
+  "PHYS 2211K": {
+    "coid": "18421",
+    "title": "Principles of Physics I with Laboratory"
+  },
+  "PHYS 2212K": {
+    "coid": "18422",
+    "title": "Principles of Physics II with Laboratory"
+  },
+  "PHYS 3000K": {
+    "coid": "18423",
+    "title": "Modern Physics"
+  },
+  "PHYS 3010": {
+    "coid": "18424",
+    "title": "Statics"
+  },
+  "PHYS 3020": {
+    "coid": "19890",
+    "title": "Nuclear Rules and Regulations"
+  },
+  "PHYS 3030": {
+    "coid": "19891",
+    "title": "Introduction to Health Physics"
+  },
+  "PHYS 3200": {
+    "coid": "18425",
+    "title": "Introduction to Electrodynamics"
+  },
+  "PHYS 3210": {
+    "coid": "18426",
+    "title": "Dynamics"
+  },
+  "PHYS 3500": {
+    "coid": "18427",
+    "title": "Radiation and Public Health"
+  },
+  "PHYS 3710": {
+    "coid": "18428",
+    "title": "Electric Circuits"
+  },
+  "PHYS 4000": {
+    "coid": "19889",
+    "title": "Physics of Ionizing Radiation"
+  },
+  "POLS 1101": {
+    "coid": "18429",
+    "title": "American Government"
+  },
+  "POLS 1101H": {
+    "coid": "18430",
+    "title": "Introduction to American Government Honors"
+  },
+  "POLS 2101": {
+    "coid": "18431",
+    "title": "Introduction to Political Science"
+  },
+  "POLS 2201": {
+    "coid": "18432",
+    "title": "State and Local Government"
+  },
+  "POLS 2280": {
+    "coid": "18433",
+    "title": "Research Methods in Political Science"
+  },
+  "POLS 2401": {
+    "coid": "18434",
+    "title": "Global Issues"
+  },
+  "POLS 3010": {
+    "coid": "18924",
+    "title": "Intellectual Property: Copyright Trademarks and Licensing"
+  },
+  "POLS 3015": {
+    "coid": "18923",
+    "title": "Contracts and Negotiations"
+  },
+  "POLS 3020": {
+    "coid": "18590",
+    "title": "Environmental Law"
+  },
+  "POLS 3100": {
+    "coid": "18436",
+    "title": "Comparative Politics"
+  },
+  "POLS 3350": {
+    "coid": "18438",
+    "title": "US Foreign Policy"
+  },
+  "POLS 3400": {
+    "coid": "18439",
+    "title": "International Relations"
+  },
+  "POLS 3450": {
+    "coid": "18440",
+    "title": "Modern Political Theory"
+  },
+  "POLS 3500": {
+    "coid": "18639",
+    "title": "Public Administration"
+  },
+  "POLS 3550": {
+    "coid": "18441",
+    "title": "Public Policy Process"
+  },
+  "POLS 3690": {
+    "coid": "18894",
+    "title": "Intro to Law Office Administration"
+  },
+  "POLS 3691": {
+    "coid": "18895",
+    "title": "Overview of American Law"
+  },
+  "POLS 3700": {
+    "coid": "18621",
+    "title": "Introduction to Paralegal Studies"
+  },
+  "POLS 3701": {
+    "coid": "18620",
+    "title": "Civil Litigation for Paralegals: I"
+  },
+  "POLS 3702": {
+    "coid": "18619",
+    "title": "Civil Litigation for Paralegals: II"
+  },
+  "POLS 3750": {
+    "coid": "18883",
+    "title": "Moot Court"
+  },
+  "POLS 4001": {
+    "coid": "18444",
+    "title": "International Development"
+  },
+  "POLS 4035": {
+    "coid": "18933",
+    "title": "Special Topics in Legal Studies"
+  },
+  "POLS 4040": {
+    "coid": "18445",
+    "title": "Comparative Foreign Policy"
+  },
+  "POLS 4125": {
+    "coid": "18446",
+    "title": "Georgia Politics"
+  },
+  "POLS 4160": {
+    "coid": "18447",
+    "title": "American Judicial Process"
+  },
+  "POLS 4170": {
+    "coid": "18448",
+    "title": "Congress"
+  },
+  "POLS 4180": {
+    "coid": "18449",
+    "title": "The Presidency"
+  },
+  "POLS 4220": {
+    "coid": "18450",
+    "title": "Topics in Comparative Politics"
+  },
+  "POLS 4230": {
+    "coid": "18451",
+    "title": "Topics in American Politics"
+  },
+  "POLS 4240": {
+    "coid": "18452",
+    "title": "Topics in International Relations"
+  },
+  "POLS 4300": {
+    "coid": "18711",
+    "title": "Criminal Law in Practice"
+  },
+  "POLS 4390": {
+    "coid": "18454",
+    "title": "Legal Writing and Research"
+  },
+  "POLS 4400": {
+    "coid": "18455",
+    "title": "International Law and Organizations"
+  },
+  "POLS 4425": {
+    "coid": "18456",
+    "title": "Political Negotiation and Conflict Resolution"
+  },
+  "POLS 4460": {
+    "coid": "18457",
+    "title": "US Security Studies"
+  },
+  "POLS 4490": {
+    "coid": "18459",
+    "title": "Senior Seminar"
+  },
+  "POLS 4500": {
+    "coid": "18878",
+    "title": "Regional Politics Area Studies"
+  },
+  "POLS 4650": {
+    "coid": "18862",
+    "title": "International Politics of Gender"
+  },
+  "POLS 4700": {
+    "coid": "18460",
+    "title": "Constitutional Law"
+  },
+  "POLS 4800": {
+    "coid": "18904",
+    "title": "Campaigns and Election"
+  },
+  "POLS 4801": {
+    "coid": "18901",
+    "title": "Voting Behavior"
+  },
+  "POLS 4802": {
+    "coid": "18900",
+    "title": "Political Parties and Interest Groups"
+  },
+  "POLS 4989": {
+    "coid": "18462",
+    "title": "Directed Research"
+  },
+  "POLS 4990": {
+    "coid": "18463",
+    "title": "Internship in Political Science"
+  },
+  "PSCI 1101K": {
+    "coid": "18417",
+    "title": "Physical Science with Laboratory"
+  },
+  "PSCI 1102": {
+    "coid": "18418",
+    "title": "Physical Science"
+  },
+  "PSYC 1101": {
+    "coid": "19898",
+    "title": "Introduction to General Pscyhology (eCore)"
+  },
+  "PSYC 1102": {
+    "coid": "18464",
+    "title": "Introduction to Psychology"
+  },
+  "PSYC 2010": {
+    "coid": "18465",
+    "title": "Writing in Psychology"
+  },
+  "PSYC 2400": {
+    "coid": "18466",
+    "title": "Abnormal Psychology"
+  },
+  "PSYC 2500": {
+    "coid": "18467",
+    "title": "Lifespan Developmental Psychology"
+  },
+  "PSYC 3000": {
+    "coid": "18468",
+    "title": "Applications in Psychology"
+  },
+  "PSYC 3020": {
+    "coid": "18469",
+    "title": "Statistics for the Behavioral Sciences"
+  },
+  "PSYC 3030": {
+    "coid": "18470",
+    "title": "Research Methods and Design"
+  },
+  "PSYC 3100": {
+    "coid": "18471",
+    "title": "Psychology of Learning"
+  },
+  "PSYC 3110": {
+    "coid": "18472",
+    "title": "Cognitive Psychology"
+  },
+  "PSYC 3120": {
+    "coid": "18473",
+    "title": "Sensation & Perception"
+  },
+  "PSYC 3130": {
+    "coid": "18474",
+    "title": "Cognitive Neuroscience"
+  },
+  "PSYC 3210": {
+    "coid": "18475",
+    "title": "Introduction to Neuroscience"
+  },
+  "PSYC 3220": {
+    "coid": "18476",
+    "title": "Comparative Psychology"
+  },
+  "PSYC 3301": {
+    "coid": "18477",
+    "title": "Social Psychology"
+  },
+  "PSYC 3310": {
+    "coid": "18478",
+    "title": "Human Sexuality"
+  },
+  "PSYC 3350": {
+    "coid": "18480",
+    "title": "Introduction to Forensic Psychology"
+  },
+  "PSYC 3370": {
+    "coid": "18481",
+    "title": "Industrial/Organizational Psychology"
+  },
+  "PSYC 3400": {
+    "coid": "18482",
+    "title": "Personality Psychology"
+  },
+  "PSYC 3410": {
+    "coid": "18483",
+    "title": "Psychopathology"
+  },
+  "PSYC 3500": {
+    "coid": "18487",
+    "title": "Educational Psychology"
+  },
+  "PSYC 3510": {
+    "coid": "18488",
+    "title": "Child Development"
+  },
+  "PSYC 3520": {
+    "coid": "18489",
+    "title": "Adolescence"
+  },
+  "PSYC 3530": {
+    "coid": "18490",
+    "title": "Adult Development and Aging"
+  },
+  "PSYC 3540": {
+    "coid": "18491",
+    "title": "The Psychology of Gender"
+  },
+  "PSYC 4110": {
+    "coid": "18492",
+    "title": "Memory"
+  },
+  "PSYC 4190": {
+    "coid": "18493",
+    "title": "Special Topics in Cognitive Neuroscience"
+  },
+  "PSYC 4220": {
+    "coid": "18495",
+    "title": "Psychopharmacology"
+  },
+  "PSYC 4320": {
+    "coid": "18497",
+    "title": "Group Dynamics"
+  },
+  "PSYC 4321": {
+    "coid": "18917",
+    "title": "Health Psychology"
+  },
+  "PSYC 4361": {
+    "coid": "18922",
+    "title": "Psychology of Women"
+  },
+  "PSYC 4380": {
+    "coid": "18498",
+    "title": "Psychology of Prejudice"
+  },
+  "PSYC 4390": {
+    "coid": "18499",
+    "title": "Special Topics in Social and Applied Psychology"
+  },
+  "PSYC 4401": {
+    "coid": "18500",
+    "title": "Community Psychology"
+  },
+  "PSYC 4420": {
+    "coid": "18916",
+    "title": "Clinical Psychology"
+  },
+  "PSYC 4430": {
+    "coid": "18502",
+    "title": "Developmental Psychopathology"
+  },
+  "PSYC 4451": {
+    "coid": "18921",
+    "title": "Models of Psychotherapy"
+  },
+  "PSYC 4490": {
+    "coid": "18503",
+    "title": "Special Topics in Clinical/Personality Psychology"
+  },
+  "PSYC 4500": {
+    "coid": "18504",
+    "title": "Social and Moral Development"
+  },
+  "PSYC 4510": {
+    "coid": "18505",
+    "title": "Culture and Ethnic Diversity"
+  },
+  "PSYC 4525": {
+    "coid": "18506",
+    "title": "School Psychology"
+  },
+  "PSYC 4530": {
+    "coid": "18507",
+    "title": "Marriage and Family"
+  },
+  "PSYC 4590": {
+    "coid": "18509",
+    "title": "Special Topics in Developmental Psychology"
+  },
+  "PSYC 4600": {
+    "coid": "18510",
+    "title": "History & Systems of Psychology"
+  },
+  "PSYC 4602": {
+    "coid": "18511",
+    "title": "Senior Thesis"
+  },
+  "PSYC 4604": {
+    "coid": "18512",
+    "title": "Directed Research in Psychology"
+  },
+  "PSYC 4605": {
+    "coid": "18513",
+    "title": "Psychology Internship"
+  },
+  "PSYC 4690": {
+    "coid": "18514",
+    "title": "Special Topics in General Psychology"
+  },
+  "READ 3000": {
+    "coid": "18843",
+    "title": "Foundation of Teaching Reading"
+  },
+  "READ 3300A": {
+    "coid": "18753",
+    "title": "Concepts and Best Practices for Teaching Reading"
+  },
+  "READ 3300B": {
+    "coid": "18754",
+    "title": "Supervised Practicum in Teaching Reading"
+  },
+  "READ 3350": {
+    "coid": "18844",
+    "title": "Concepts and Best Practices for Teaching Reading with Practicum"
+  },
+  "READ 3400": {
+    "coid": "18516",
+    "title": "Content Area Literacies"
+  },
+  "READ 3700A": {
+    "coid": "18758",
+    "title": "Literacy Assessment and Instruction"
+  },
+  "READ 3700B": {
+    "coid": "18759",
+    "title": "Supervised Practicum for Literacy Assessment and Instruction"
+  },
+  "READ 3750": {
+    "coid": "18849",
+    "title": "Literacy Assessment with Practicum"
+  },
+  "READ 3900A": {
+    "coid": "18751",
+    "title": "Concepts and Best Practices for Teaching Writing"
+  },
+  "READ 3900B": {
+    "coid": "18752",
+    "title": "Supervised Practicum for Teaching Writing"
+  },
+  "READ 3950": {
+    "coid": "18848",
+    "title": "Concepts and Best Practices for Teaching Writing with Practicum"
+  },
+  "RELN 1100": {
+    "coid": "18520",
+    "title": "World Religions"
+  },
+  "RELN 3100": {
+    "coid": "18521",
+    "title": "Religion and Social Justice"
+  },
+  "RELN 3200": {
+    "coid": "18910",
+    "title": "Meditation, Contemplation and Resilience"
+  },
+  "RELN 3300": {
+    "coid": "18595",
+    "title": "Contemporary Islam"
+  },
+  "RELN 3400": {
+    "coid": "18911",
+    "title": "Religion and Science"
+  },
+  "RELN 3500": {
+    "coid": "18523",
+    "title": "Bioethics"
+  },
+  "RELN 3510": {
+    "coid": "18594",
+    "title": "Philosophy of Religion"
+  },
+  "RELN 3650": {
+    "coid": "18557",
+    "title": "Spirituality, Health and Wellbeing"
+  },
+  "RELN 3700": {
+    "coid": "18597",
+    "title": "Buddhism"
+  },
+  "RELN 3710": {
+    "coid": "18596",
+    "title": "Religion and Culture"
+  },
+  "RELN 4001": {
+    "coid": "18524",
+    "title": "Biblical Studies"
+  },
+  "RELN 4700": {
+    "coid": "18525",
+    "title": "Special Topics in Religious Studies"
+  },
+  "SCM 3000": {
+    "coid": "18608",
+    "title": "Principles of Supply Chain Management"
+  },
+  "SCM 3300": {
+    "coid": "18609",
+    "title": "Transportation and Logistics Management"
+  },
+  "SCM 3500": {
+    "coid": "18607",
+    "title": "Supply Chain Modeling and Analysis"
+  },
+  "SCM 4240": {
+    "coid": "18605",
+    "title": "Process Improvement and Quality Control"
+  },
+  "SCM 4330": {
+    "coid": "18606",
+    "title": "Supply Chain Management Applications"
+  },
+  "SCM 4650": {
+    "coid": "18734",
+    "title": "Business Research Methods"
+  },
+  "SCM 4751": {
+    "coid": "18604",
+    "title": "Internship in Supply Chain Management"
+  },
+  "SOCI 1101": {
+    "coid": "18530",
+    "title": "Introduction to Sociology"
+  },
+  "SOCI 1160": {
+    "coid": "18531",
+    "title": "Introduction to Social Problems"
+  },
+  "SOCI 2293": {
+    "coid": "18532",
+    "title": "Sociology of Family"
+  },
+  "SOCI 3050": {
+    "coid": "18611",
+    "title": "Race and Ethnicity"
+  },
+  "SOCI 3060": {
+    "coid": "18566",
+    "title": "Sociology of Disability"
+  },
+  "SOCI 3070": {
+    "coid": "18559",
+    "title": "Health Policy and Social Services"
+  },
+  "SOCI 3100": {
+    "coid": "18856",
+    "title": "Applied Sociology"
+  },
+  "SOCI 3156": {
+    "coid": "18610",
+    "title": "Sexuality and Society"
+  },
+  "SOCI 3200": {
+    "coid": "18533",
+    "title": "Sociology of Gender"
+  },
+  "SOCI 3201": {
+    "coid": "18534",
+    "title": "Social Inequality"
+  },
+  "SOCI 3500": {
+    "coid": "18535",
+    "title": "Social Change and Social Movements"
+  },
+  "SOCI 3510": {
+    "coid": "18565",
+    "title": "Gender and Race Over the Life Course"
+  },
+  "SOCI 4000": {
+    "coid": "18536",
+    "title": "Special Topics in Sociology"
+  },
+  "SOCI 4030": {
+    "coid": "18672",
+    "title": "Schools and Society"
+  },
+  "SOCI 4200": {
+    "coid": "18671",
+    "title": "Medical Sociology"
+  },
+  "SPAN 1001": {
+    "coid": "18537",
+    "title": "Elementary Spanish I"
+  },
+  "SPAN 1002": {
+    "coid": "18538",
+    "title": "Elementary Spanish II"
+  },
+  "SPAN 2001": {
+    "coid": "18539",
+    "title": "Intermediate Spanish I"
+  },
+  "SPAN 2002": {
+    "coid": "18540",
+    "title": "Intermediate Spanish II"
+  },
+  "SPAN 3010": {
+    "coid": "18541",
+    "title": "Spanish Conversation and Composition"
+  },
+  "SPAN 3020": {
+    "coid": "18830",
+    "title": "Latin American Culture and Civilization"
+  },
+  "SPAN 4000": {
+    "coid": "18794",
+    "title": "Special Topics in Spanish"
+  },
+  "SPAN 4020": {
+    "coid": "18542",
+    "title": "Survey of Latin American Literature"
+  },
+  "SPAN 4500": {
+    "coid": "18793",
+    "title": "Directed Study in Spanish"
+  },
+  "SPED 3100": {
+    "coid": "18543",
+    "title": "Characteristics of Students with Special Needs P-12"
+  },
+  "SPED 3200A": {
+    "coid": "18749",
+    "title": "Educational Environments & Planning for Students with Mild Disabilities"
+  },
+  "SPED 3200B": {
+    "coid": "18750",
+    "title": "Special Education Field I"
+  },
+  "SPED 3600": {
+    "coid": "18884",
+    "title": "Technology for Special Education"
+  },
+  "SPED 3700A": {
+    "coid": "18755",
+    "title": "Specially Designed Instruction in Special Education"
+  },
+  "SPED 3700B": {
+    "coid": "18756",
+    "title": "Introduction to Emotional & Behavioral Disorders (EBD)"
+  },
+  "SPED 3700C": {
+    "coid": "18757",
+    "title": "Special Education Field II"
+  },
+  "SPED 4600A": {
+    "coid": "18583",
+    "title": "Instructional Adaptation for Students with Disabilities"
+  },
+  "SPED 4600B": {
+    "coid": "18581",
+    "title": "Assessment and Progress Monitoring for Students with Disabilities"
+  },
+  "SPED 4600C": {
+    "coid": "18585",
+    "title": "Special Education Practicum"
+  },
+  "SPED 4900": {
+    "coid": "18847",
+    "title": "Characteristics of Students with Autism Disorders"
+  },
+  "SPED 4950": {
+    "coid": "18846",
+    "title": "Introduction to Principles & Terminology of Applied Behavior Analysis"
+  },
+  "SPED 4990": {
+    "coid": "18845",
+    "title": "Educational Approaches and Strategies for Students with Autism Spectrum Disorders"
+  },
+  "STEC 2500": {
+    "coid": "18526",
+    "title": "Introduction to Undergraduate Research for SST"
+  },
+  "STEC 4200": {
+    "coid": "18527",
+    "title": "Directed Readings Seminar"
+  },
+  "STEC 4500": {
+    "coid": "18528",
+    "title": "Undergraduate Research Project"
+  },
+  "STEC 4800": {
+    "coid": "18529",
+    "title": "Internship in Service Learning"
+  },
+  "THEA 1100": {
+    "coid": "18547",
+    "title": "Theatre Appreciation"
+  },
+  "THEA 2100": {
+    "coid": "18881",
+    "title": "Theatre Production I"
+  },
+  "THEA 2500": {
+    "coid": "19894",
+    "title": "Theater Practicum"
+  },
+  "THEA 3200": {
+    "coid": "19893",
+    "title": "Theater Administration"
+  },
+  "THEA 3300": {
+    "coid": "19895",
+    "title": "Voice and Movement"
+  },
+  "THEA 3500": {
+    "coid": "19892",
+    "title": "Play Analysis"
+  },
+  "THEA 3700": {
+    "coid": "19910",
+    "title": "Playwriting"
+  },
+  "THEA 4000": {
+    "coid": "19905",
+    "title": "Special Topics in Theatre"
+  }
+}

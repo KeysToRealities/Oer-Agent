@@ -62,11 +62,11 @@ function ResourceModal({ resource, onClose }) {
 
         {hasScores && (
           <div className="scores">
-            <ScoreBar label="Relevance"    score={resource.relevance_score} />
-            <ScoreBar label="Ped. Value"   score={resource.pedagogical_value_score} />
-            <ScoreBar label="Open License" score={resource.open_license_score} />
-            <ScoreBar label="Currency"     score={resource.currency_score} />
-            <ScoreBar label="Tech Quality" score={resource.technical_quality_score} />
+            <ScoreBar label="Relevance"      score={resource.relevance_score} />
+            <ScoreBar label="Ped. Value"     score={resource.pedagogical_value_score} />
+            <ScoreBar label="Currency"       score={resource.currency_score} />
+            <ScoreBar label="Tech Quality"   score={resource.technical_quality_score} />
+            <ScoreBar label="Interactivity"  score={resource.interactivity_score} />
             {resource.has_rating
               ? <ScoreBar label="User Rating" score={resource.quality_score} />
               : <div className="no-rating">No user ratings</div>
